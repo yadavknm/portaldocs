@@ -315,7 +315,7 @@ The package will contain 1 or more ARM template stored in the DeploymentTemplate
 
 <a name="gallery-item-specificiations-gallery-package-management-getting-the-gallery-tools"></a>
 #### Getting the Gallery Tools
-You can find the latest version of the gallery tools (Microsoft.Azure.Gallery.AzureGalleryUtility) in the official wanuget store: http://wanuget/Official.
+You can find the latest version of the gallery tools (Microsoft.Azure.Gallery.AzureGalleryUtility) in the official NuGet feed: [https://msazure.visualstudio.com/One/_packaging?_a=feed&feed=Official](https://msazure.visualstudio.com/One/_packaging?_a=feed&feed=Official).
 
 
 <a name="gallery-item-specificiations-gallery-package-management-creating-an-azure-gallery-package"></a>
