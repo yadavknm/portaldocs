@@ -15,7 +15,7 @@ Side loading lets you run a local development version of your extension against 
 
 * Sideload extension that is deployed on hosting service in friendly name or stage
 
-	`https://portal.azure.com?feature.canmodifystamps&Microsoft_Azure_Demo=friendlyname`
+	`https://portal.azure.com?feature.canmodifystamps=true&Microsoft_Azure_Demo=friendlyname`
 
 * Sideload extension running on, or mapped to, domain other than localhost
 
@@ -69,13 +69,13 @@ Register the extension for side loading using one of the following two methods.
 
 	Format
 
-	`https://portal.azure.com?feature.canmodifystamps&<extensionName>=<friendlyNameOrStage>`
+	`https://portal.azure.com?feature.canmodifystamps=true&<extensionName>=<friendlyNameOrStage>`
 
 	Example
 
 	The following example loads the version of `Microsoft_Azure_Demo` that was deployed to the hosting service using the friendly name "somenewfeature".
 
-	`https://portal.azure.com?feature.canmodifystamps&Microsoft_Azure_Demo=somenewfeature`
+	`https://portal.azure.com?feature.canmodifystamps=true&Microsoft_Azure_Demo=somenewfeature`
 
 	For more information about testing extensions in the hosting service, see [top-extensions-hosting-service.md#friendly-names-and-sideloading](top-extensions-hosting-service.md#friendly-names-and-sideloading).
 
