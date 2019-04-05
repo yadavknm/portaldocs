@@ -47,7 +47,7 @@ Register the extension for side loading using one of the following two methods.
 
 	where
 
-	* **environment**: Portal environment in which to load the extension. Portal environments are `portal.azure.com`, `rc.portal.azure.com`, `mpac.portal.azure.com`, and `df.onecloud.azure-test.net`.
+	* **environment**: Portal environment in which to load the extension. Portal environments are `portal.azure.com`, `rc.portal.azure.com`, `ms.portal.azure.com`, and `df.onecloud.azure-test.net`.
 
 	* **feature.canmodifyextensions**: set to true to support loading untrusted extensions.  This feature flag grants permission to the Portal to load extensions from URLs other than the ones that are typically used by customers. It triggers an additional Portal UI that indicates that the Portal is running with untrusted extensions.
 
