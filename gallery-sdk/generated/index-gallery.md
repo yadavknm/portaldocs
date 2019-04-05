@@ -349,6 +349,34 @@ To update the filters for the a package run the following command.
 > AzureGallery.exe update -i [Publisher].[Name].[Version] -h [comma-separated hide key list] -sf [comma-separated subscription guid list]
 ```
 
+
+```
+
+<a name="gallery-item-specificiations-gallery-package-management-publishing-azure-gallery-package-to-national-clouds"></a>
+#### Publishing a Azure Gallery Package to National Clouds (Fairfax/Mooncake)
+
+1. Modify your service's Marketplace Gallery package for first-time-publishing testing.
+    1. Unzip your gallery package. If it's an `.azpkg` file, rename it to `.zip`.
+    1. Add a hidekey in the filters section of your `Manifest.json`
+        ```json
+        "filters": [
+          {
+            "type": "HideKey",
+            "value": "HIDEKEY_NAME_HERE"
+          }
+        ]
+        ```
+    1. Reduce the package's version by 1 minor version. This is because you'll need to bump up the version once you remove the hide key and you don't want to have to have the minor version of your package in the sovereigns be +1 from your public package.
+    1. Re-zip your package and rename it back to `.azpkg`.
+1. Send your gallery package `.azpkg` file to [OneStore team](mailto:1store@microsoft.com) to get it published. Let them know this is for Fairfax and that you already added a hidekey.
+1. Once the OneStore team completes publishing, test your package by launching the portal with the hidekey.
+
+    ```
+    https://portal.azure.us/?microsoft_azure_marketplace_ItemHideKey=HIDEKEY_NAME_HERE
+    ```
+
+1. Repeat step 2 but this time send your unmodified package without the version change and hidekey.
+
 <a name="gallery-item-specificiations-gallery-package-management-deleting-a-azure-gallery-package-or-deployment-fragment"></a>
 #### Deleting a Azure Gallery Package or Deployment Fragment
 Deleting Azure Gallery Packages is only supported in the test environments. We will not allow or support deletion of gallery packages in PROD except in rare situations such as a security or legal issue. In order to delete your package run the following command. In order to do this you will be required to configure the package loader too as noted here.
