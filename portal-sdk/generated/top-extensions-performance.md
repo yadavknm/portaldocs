@@ -130,7 +130,7 @@ You can, if preferred, run queries locally but ensure you are using the Fx provi
 <a name="performance-overview-how-to-assess-your-performance-extension-loading"></a>
 ### Extension-loading
 
-[database('Framework').ExtensionPerformance(ago(1h), now())](https://dataexplorer.azure.com/clusters/azportalpartner/databases/AzurePortal?query=H4sIAAAAAAAAA0tJLElMSixO1VB3K0rMTS3PL8pW19RzrShJzSvOzM8LSC1Kyy/KTcxLTtVITM/XMMzQ1FHIyy/X0NTk5QIAwN+cVTwAAAA=)
+[database('Framework').ExtensionPerformanceKPI(ago(1h), now())](https://dataexplorer.azure.com/clusters/azportalpartner/databases/AzurePortal?query=H4sIAAAAAAAAA0tJLElMSixO1VB3K0rMTS3PL8pW19RzrShJzSvOzM8LSC1Kyy/KTcxLTvUO8NRITM/XMMzQ1FHIyy/X0NTk5QIAteSUID8AAAA=)
 
 ExtensionPerformance will return a table with the following columns:
 
