@@ -48,6 +48,7 @@ Full screen is a foundation of any page in the Azure portal. All resources are b
 ## Anatomy
 Full screen navigation involves:
 <!-- TODO UX - get screenshot for anatomy that includes Dialog -->
+
 <div style="max-width:800px">
 <img alttext="Full screen anotomy" src="../media/design-patterns-page-fullscreen/FS_1_Anatomy.png"  />
 </div>

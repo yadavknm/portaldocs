@@ -184,7 +184,7 @@ eg: Dogfood, Prod, Mooncake, Fairfax and BlackForest
 
 ![storage container](./../media/portalfx-extensions-onboarding/hosting-service-storage-container.png)
 
-3) Upload the [config.json](/portal-sdk/generated/top-extensions-hosting-service.md#step-8-upload-safe-deployment-config) and the [generated zip file](/portal-sdk/generated/top-extensions-hosting-service.md#step-7-execute-content-unbundler-as-part-of-build-to-generate-zip-file) from your build. 
+3) Upload the [config.json](/portal-sdk/generated/top-extensions-hosting-service.md#step-6-upload-safe-deployment-config) and the [generated zip file](/portal-sdk/generated/top-extensions-hosting-service.md#step-1-generate-hosting-service-versioned-zip-file) from your build. 
 
 **NOTE**:  You can make changes to hosting service configuration and raise a pull request for a self-service onboarding to hosting service
 
@@ -196,7 +196,7 @@ eg: Dogfood, Prod, Mooncake, Fairfax and BlackForest
 [config.prod.json](https://msazure.visualstudio.com/One/_git/AzureUX-PortalHostingSvc?path=%2Fsrc%2FRDPackages%2FExtensionHost%2Fconfig.prod.json&version=GBdev),
 [config.ff.json](https://msazure.visualstudio.com/One/_git/AzureUX-PortalHostingSvc?path=%2Fsrc%2FRDPackages%2FExtensionHost%2Fconfig.ff.json&version=GBdev), 
 [config.mc.json](https://msazure.visualstudio.com/One/_git/AzureUX-PortalHostingSvc?path=%2Fsrc%2FRDPackages%2FExtensionHost%2Fconfig.mc.json&version=GBdev), 
-[config.bf.json](https://msazure.visualstudio.com/One/_git/AzureUX-PortalHostingSvc?path=%2Fsrc%2FRDPackages%2FExtensionHost%2Fconfig.bf.json&version=GBdev)) by editing and adding a new line for the [extension route prefix](https://github.com/Azure/portaldocs/blob/dev/portal-sdk/generated/top-extensions-hosting-service.md#step-7-execute-content-unbundler-as-part-of-build-to-generate-zip-file) entry in the "hostExtensionConfigs" section as shown below.
+[config.bf.json](https://msazure.visualstudio.com/One/_git/AzureUX-PortalHostingSvc?path=%2Fsrc%2FRDPackages%2FExtensionHost%2Fconfig.bf.json&version=GBdev)) by editing and adding a new line for the [extension route prefix](https://github.com/Azure/portaldocs/blob/dev/portal-sdk/generated/top-extensions-hosting-service.md#step-1-generate-hosting-service-versioned-zip-file) entry in the "hostExtensionConfigs" section as shown below.
 
 ![storage container](./../media/portalfx-extensions-onboarding/hosting-service-pr.png)
 
@@ -222,13 +222,15 @@ Note:  Incorrect or insufficient information in the workitem could delay the onb
 2) If you are NOT using disabled flag, you must increment the extension count in [DeploymentSettingsTests.cs](https://msazure.visualstudio.com/One/_git/AzureUX-PortalFx?path=%2Fsrc%2FStbPortal%2FWebsite.Server.Tests%2FDeploymentSettingsTests.cs&version=GBdev) 
 ![storage](./../media/portalfx-extensions-onboarding/extension-count.png)
 3) Always raise the PR to the Dev branch
-4) For Prod config chanages, once the PR is approved, please cherry pick the change to Mpac and then to Prod. Portal team does not auto merge the changes to other branches
-5) Always cherry-pick the change from previous downlevel branch. eg: Dev to Mpac, Mpac to Prod.
+4) For Prod config chanages, once the PR is approved, please cherry pick the change to Prod after thoroughly testing the portal in MPAC. Portal team does not auto merge the changes to Production branches
+5) Always cherry-pick the change from Dev to Prod branch. ***This is a new change to the cherry-picking process as we will deploy to Mpac by default from Dev branch.***
 6) Here is a sample PR change for dogfood branch.
 
 Note : Dogfood config does not require creating a CNAME entry for extensions as all extensions use the common DNS endpoint. Onboarding to Production config will require the CNAME created with route prefix.
 
 ![storage container](./../media/portalfx-extensions-onboarding/portal-framework-extension-config.png)
+
+7) [Hide all assets](portalfx-assets.md#how-to-hide-your-asset-in-different-environments) in your extension code before updating the framework config. By doing this, you can control when the assets can be shown and when you want to go live in Production. 
 
 Note : Extension name cannot be changed once onboarding is complete. It will require a new onboarding and redirecting to the new extension.
 
