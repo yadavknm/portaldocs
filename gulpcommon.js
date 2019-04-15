@@ -181,6 +181,7 @@ var self = module.exports = {
             ".pdl": { regEx: xmlCommentRegEx, template: xmlSnippetTemplate },
             ".csproj": { regEx: xmlCommentRegEx, template: xmlSnippetTemplate },
             ".html": { regEx: xmlCommentRegEx, template: xmlSnippetTemplate },
+            ".md": { regEx: xmlCommentRegEx, template: "" },
             ".cs": { regEx: codeCommentRegEx, template: "```csharp\n%s\n```" },
             ".ts": { regEx: codeCommentRegEx, template: "```typescript\n%s\n```" },
             ".tsx": { regEx: codeCommentRegEx, template: "```typescript\n%s\n```" },

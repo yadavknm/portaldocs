@@ -49,7 +49,8 @@ Full screen navigation involves:
 5. Dialog
 
 ## Behavior 
-The current blade should occupy the available screen space and any subsequent user interactions should seek to minimize navigating the user.    
+The current blade should occupy the available screen space and any subsequent user interactions should seek to minimize navigating the user.  
+
 The user will invoke an action using one of the following items
 * menu
 * toolbar
@@ -57,31 +58,38 @@ The user will invoke an action using one of the following items
 * link
 * card 
 
-In order to minimize the disruption to the user, an action should use one of the following approaches in priority order to gather more info or display result
+In order to minimize the disruption to the user, an action should display subsequent UI as close to the user's previosu click target as possible by using one of the following approaches in priority order
 
-1. Take the action with no further user interaction needed, user may see updates to current page or portal notifcations.  For example, starting a VM will show portal notifcations to confirm the action was invoked and to display results.  The refresh command is another example of taking an action with no further user input needed.
-2. Open a dialog for user to provide more data or confirm the action.  For example, deleting a VM invokes a dialog to explain the ramifications of the action and have the user confirm via Yes/No buttons.
-3. Open a context pane for the user to provide more data or confirm the action.  For example, in All Resources the edit columns action invokes a context pane for the user to select columns and then save via an Apply button.
-4. Select an existing resource menu on the same page.  For example, on the Storage account overview page clicking on the Blobs card selects the Storage Accounts Blobs menu item.  
-5. Open a new full screen page in the portal.  For example, on the resource group overview page, clicking a resource name will open the resource page.
-6. Open a website that is external to the Azure portal.  For example, on the monitor overview page, the links at the bottom of the page all leave the portal.
+1. Take the action with no further user interaction needed, user may see updates to current page or portal notifcations.  Examples:
+    * Refreshing a page takes immediate affect with no further user input needed.  
+    * Starting a VM immediately calls the API.  Portal notifications are used to track the start action and result.
+2. Open a dialog to display info or confirm the action.  Example: 
+    * Deleting a VM invokes a dialog to explain the ramifications of the action and have the user confirm via Yes/No buttons.
+3. Open a context pane to display info and perform the action.  Example:
+    * Edit columns in All Resources invokes a context pane for the user to configure columns and then save via an Apply button.
+4. Select an existing resource menu on the same page.  Example:
+    * Clicking the Blobs card on the Storage account overview page selects the Storage Accounts Blobs menu item.  
+5. Open a new full screen page in the portal.  Example:
+    * Clicking resource name on the resource group overview page opens the resource page.
+6. Open a website that is external to the Azure portal.  Example: 
+    * Clicking the links on the bottom of the monitor overview page will navigate you to a site outside the portal.
     * Note whenever a link will result in the user leaving the portal, you should show the LaunchCurrent MsPortalFx.Base.Images.LaunchCurrent() icon after the link text as part of the link tag.  See [portalfx-icons-builtin.md](portalfx-icons-builtin.md) for full list of icons.  
 
 
 ### Menu blade
-The portal menu blade occupies a vertical portion of the page and opens all of its associated pages in full screen by default.  You should avoid having a menu blade open another menu blade or open a website that is external to the portal as this interaction is very jarring and the user can feel lost.  The best way to provide smoother navigation is to provide a content page which the first menu will display.  This page can be mostly static content to explain the relationship between the current view and the next navigation.  An element on that page (link, button, card) can then be used to open a new menu within the portal or go to an external site so the user can understand the navigation.
+The portal menu blade occupies a vertical portion of the page and opens all of its associated pages in full screen by default.  You should avoid having a menu blade open another menu blade or open a website that is external to the portal as this interaction is very jarring and the user can feel lost.  The best way to provide smoother navigation is to provide a content page which the first menu will display.  This page can be mostly static content to explain the relationship between the current view and the next navigation.  An element on that page (link, button, card) can then be used to open a new menu within the portal or go to an external site.
 
 ### Toolbar
-Toolbars are located at the top of the page and invoke actions.  Toolbar actions rarely will open a website external to the portal.  If they must, the LaunchCurrent icon should be used as the toolbar icon and not be shown trailing the text
+Toolbars are located at the top of the page and invoke actions.  Toolbar actions rarely will open a site external to the portal.  If they must, the LaunchCurrent icon should be used as the toolbar icon and not be shown trailing the text
 
 ### Content area
 The content area of a page provides content, links, buttons, cards and content area actions - like adding a row to a grid.  These actions can leverage the appropriate action behavior, including leaving the portal.   
 
 ### Context pane
-A context pane is a full height element that opens on top of the underlying page.  Context panes can have varying widths depending on the content being displayed.  Context panes should folow a layout similar to dialogs with a pair of Ok/Cancel, Save/Discard, Yes/No buttons at the bottom that will take the appropriate action and close the context pane.  Through Vanadium, context panes constitute the end of a navigation path and should not invoke resource menu items or full screen pages in the portal.
+A context pane is a full height element that opens on top of the underlying page and appears docked to the right-edge of the portal.  Context panes can have varying widths depending on the content being displayed.  Context panes should folow a layout similar to dialogs with buttons at the bottom that perform the appropriate action and close the context pane.  Through Vanadium, context panes constitute the end of a navigation path and should not invoke resource menu items or full screen pages in the portal.
 
 ### Dialog
-A dialog is an element that floats above the underlying page.  The dialog is sized according to the content being displayed.  Dialogs should have a single button (i.e. Close ) or a pair of buttons (i.e. Ok/Cancel, Save/Discard, Yes/No, Move/Cancel, Delete/Cancel ) at the bottom that will take the appropriate action and close the dialog.
+A dialog is an element that floats above the underlying page and appears near the element which invokes it.  The dialog is sized according to the content being displayed.  Dialogs should have a single button (i.e. Close ) or a pair of buttons (i.e. Ok/Cancel, Save/Discard, Yes/No, Move/Cancel, Delete/Cancel ) at the bottom that will take the appropriate action and close the dialog.
 
 ### Maximized blades 
 All browse pages and menu pages open full screen by default.
