@@ -70,7 +70,17 @@
 
 <a name="telemetry-performance"></a>
 ## Performance
-undefined
+* [Overview](portalfx-performance-overview.md#overview)
+* [Extension performance](portalfx-performance-overview.md#extension-performance)
+* [Blade performance](portalfx-performance-overview.md#blade-performance)
+* [Part performance](portalfx-performance-overview.md#part-performance)
+* [WxP score](portalfx-performance-overview.md#wxp-score)
+* [Assessing blade performance](portalfx-performance-overview.md#assessing-blade-performance)
+* [Performance profiling](portalfx-performance-overview.md#performance-profiling)
+* [Identify common slowdowns](portalfx-performance-overview.md#identify-common-slowdowns)
+* [Verifying a change](portalfx-performance-overview.md#verifying-a-change)
+* [Topics that Improve Blade Performance](portalfx-performance-overview.md#topics-that-improve-blade-performance)
+
 
 <a name="telemetry-reliability"></a>
 ## Reliability
