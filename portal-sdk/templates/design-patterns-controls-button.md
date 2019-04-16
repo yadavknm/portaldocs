@@ -1,15 +1,23 @@
 ﻿# Button
 
-{"gitdown": "include-section", "file": "../samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#basics"}
+{"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#basics"}
 
-<!-- EWINNER TODO get an IMAGE to embed here -->
+<!-- TODO get an IMAGE to embed here -->
 
-<!-- EWINNER TODO get an SAMPLE CODE to embed here -->
+### Interact with the control and get sample source code
+To see the latest control, change options and get source code for your project, click here.
 
-{"gitdown": "include-section", "file": "../samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#when"}
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/ButtonPlayground" target="_blank">Button in the interactive controls playground</a>
 
-{"gitdown": "include-section", "file": "../samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#design"}
+Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
-{"gitdown": "include-section", "file": "../samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#devtips"}
 
-{"gitdown": "include-section", "file": "../samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#reldocs"}
+<!-- TODO get an SAMPLE CODE to embed here -->
+
+{"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#when"}
+
+{"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#design"}
+
+{"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#devtips"}
+
+{"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/Button.md", "section": "control#reldocs"}

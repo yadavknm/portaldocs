@@ -6,9 +6,18 @@
 Buttons are best used to enable a user to commit a change or complete steps in a task. They are typically found inside forms, dialogs, panels or pages. An example of their usage is confirming the deletion of a resource in a confirmation dialog.
 
 
-<!-- EWINNER TODO get an IMAGE to embed here -->
+<!-- TODO get an IMAGE to embed here -->
 
-<!-- EWINNER TODO get an SAMPLE CODE to embed here -->
+<a name="interact-with-the-control-and-get-sample-source-code"></a>
+### Interact with the control and get sample source code
+To see the latest control, change options and get source code for your project, click here.
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/ButtonPlayground" target="_blank">Button in the interactive controls playground</a>
+
+Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+
+
+<!-- TODO get an SAMPLE CODE to embed here -->
 
  
 <a name="when-to-use"></a>

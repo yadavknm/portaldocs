@@ -338,21 +338,7 @@ To upload the package run the following command.
 > AzureGallery.exe upload -p ..\path\to\package.azpkg
 ```
 
-<a name="gallery-item-specificiations-gallery-package-management-updating-hide-key-for-azure-gallery-package"></a>
-#### Updating hide key for Azure Gallery Package
-In order to add/update or remove a hide key or subscription filters associated with an item you will run the AzureGallery tool. To remove a hide key you need update the item and specify an empty key.
-
-To update the filters for the a package run the following command.
-
-
-```bat
-> AzureGallery.exe update -i [Publisher].[Name].[Version] -h [comma-separated hide key list] -sf [comma-separated subscription guid list]
-```
-
-
-```
-
-<a name="gallery-item-specificiations-gallery-package-management-publishing-azure-gallery-package-to-national-clouds"></a>
+<a name="gallery-item-specificiations-gallery-package-management-publishing-a-azure-gallery-package-to-national-clouds-fairfax-mooncake"></a>
 #### Publishing a Azure Gallery Package to National Clouds (Fairfax/Mooncake)
 
 1. Modify your service's Marketplace Gallery package for first-time-publishing testing.
@@ -376,6 +362,17 @@ To update the filters for the a package run the following command.
     ```
 
 1. Repeat step 2 but this time send your unmodified package without the version change and hidekey.
+
+<a name="gallery-item-specificiations-gallery-package-management-updating-hide-key-for-azure-gallery-package"></a>
+#### Updating hide key for Azure Gallery Package
+In order to add/update or remove a hide key or subscription filters associated with an item you will run the AzureGallery tool. To remove a hide key you need update the item and specify an empty key.
+
+To update the filters for the a package run the following command.
+
+
+```bat
+> AzureGallery.exe update -i [Publisher].[Name].[Version] -h [comma-separated hide key list] -sf [comma-separated subscription guid list]
+```
 
 <a name="gallery-item-specificiations-gallery-package-management-deleting-a-azure-gallery-package-or-deployment-fragment"></a>
 #### Deleting a Azure Gallery Package or Deployment Fragment

@@ -1,9 +1,9 @@
 ﻿# Style guide tips
 Here are some quick tips to align with the portal color themes, color pallette and type ramp that resonate with customers and meets accessibility requirements. 
 
-<a name="full-style-guide"></a>
-## Full style guide
-* Full Style guide [Azure Portal Style Guide PDF](../media/design-patterns-style-guide/Azure-Portal-Style-Guide.pdf)
+<a name="style-guide-in-figma"></a>
+## Style guide in Figma
+* Style guide [Azure Portal Toolkit Style Section in Figma](https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=1592%3A0)
 
 
 <a name="key-style-items"></a>
@@ -14,16 +14,6 @@ Here are some quick tips to align with the portal color themes, color pallette a
 * Wrap text at 75 characters per line
 * All the line style icons align with the monoline icon style from Full MDL Icon font.
 * We use 4px grid system. The smallest padding/margin is 4px. 
-
-
-<a name="key-style-items-external-link"></a>
-### External link
-Links that open in new browser instances should follow this styling
-
-<div style="max-width:600px">
-<img alttext="external link" src="../media/design-patterns-style-guide/external-link.jpg"  />
-</div>
-
 
 <a name="screen-resolutions"></a>
 ## Screen resolutions
@@ -41,8 +31,19 @@ Designing for 1366 forces a focus on the most important information.
 
 <a name="screen-resolutions-telemetry"></a>
 ### Telemetry
-Reports showing portal usage
+Reports showing portal usage by screen resolution
 [Screen resolution telemetry](https://msit.powerbi.com/groups/4f11aaa4-1faf-4bf3-9983-1dc7351bf5b6/reports/bdd70bcd-ff00-44d6-a29b-4ba942c59867/ReportSection)
+
+
+<a name="screen-resolutions-external-link"></a>
+### External link
+Links that open in new browser instances should follow this styling
+
+<div style="max-width:600px">
+<img alttext="external link" src="../media/design-patterns-style-guide/external-link.jpg"  />
+</div>
+
+
 
 
 <a name="related-design-guidelines"></a>
