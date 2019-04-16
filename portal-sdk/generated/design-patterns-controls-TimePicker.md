@@ -2,12 +2,14 @@
 
  
 <a name="basics"></a>
-### Basics
+## Basics
+The TimePicker component enables a user to pick a time.
+
 
 
 <!-- TODO get an IMAGE to embed here -->
 
-<a name="interact-with-the-control-and-get-sample-source-code"></a>
+<a name="basics-interact-with-the-control-and-get-sample-source-code"></a>
 ### Interact with the control and get sample source code
 To see the latest control, change options and get source code for your project, click here.
 
@@ -19,38 +21,49 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <!-- TODO get an SAMPLE CODE to embed here -->
 
  
-<a name="when-to-use"></a>
+<a name="basics-when-to-use"></a>
 ### When to use
+Use the TimePicker when the user must select a time.
+
+There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
+* DatePicker
+* DateTimePicker
+* DateTimeRangePicker
+* DayPicker
+* DurationPicker
+* TimePicker
+
 
 
  
-<a name="design-best-practices"></a>
+<a name="basics-design-best-practices"></a>
 ### Design best practices
 
-<a name="design-best-practices-figma-design-toolkit"></a>
+<a name="basics-design-best-practices-figma-design-toolkit"></a>
 #### Figma design toolkit
 
-<a name="design-best-practices-do"></a>
+<a name="basics-design-best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use the control as a single entity.
+* The control is designed to resize relative to available screen width. Allow it to render in either wide or narrow as appropriate.
 
-
-<a name="design-best-practices-don-t"></a>
+<a name="basics-design-best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't attempt to force resize the control in any way.
+
 
 
 
  
-<a name="developer-tips-and-tricks"></a>
+<a name="basics-developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
 
 
  
-<a name="related-docs"></a>
+<a name="basics-related-docs"></a>
 ### Related docs
 
 For overall Azure design guidance see http://aka.ms/portalfx/design
