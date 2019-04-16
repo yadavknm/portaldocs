@@ -3,6 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
+A DropDown is a list in which the selected item is always visible, and the others are visible on demand by clicking a drop-down button. 
+
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -21,6 +23,7 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
  
 <a name="when-to-use"></a>
 ### When to use
+DropDowns are used to simplify the design and make a choice within the UI. When closed, only the selected item is visible. When users click the drop-down button, all the options become visible. To change the value, users open the list and click another value or use the arrow keys (up and down) to select a new value.
 
 
  
@@ -30,18 +33,18 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="design-best-practices-figma-design-toolkit"></a>
 #### Figma design toolkit
 
-https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit-–-v3-(Vanadium-release)?node-id=3071%3A379395 
+https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3071%3A379395 
 
 <a name="design-best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use a DropDown when there are multiple choices that can be collapsed under one title. Or if the list of items is long or when space is constrained.
+* Use shortened statements or single words as options.
+* Use a DropDown when the selected option is more important than the alternatives (in contrast to radio buttons where all the choices are visible putting more emphasis on the other options).
 
 <a name="design-best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
 
 
 
