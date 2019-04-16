@@ -3,6 +3,9 @@
  
 <a name="basics"></a>
 ### Basics
+The TabControl control and related tabs pattern are used for navigating frequently accessed, distinct content categories. TabControls allow for navigation between two or more content views and rely on text headers to articulate the different sections of content.
+
+Tapping on a tab item header navigates to that header's section content.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -21,6 +24,7 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
  
 <a name="when-to-use"></a>
 ### When to use
+Use tabs to separate content on a page and ensure the user can see the available categories of information
 
 
  
@@ -30,17 +34,21 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="design-best-practices-figma-design-toolkit"></a>
 #### Figma design toolkit
 
+<!-- TODO NEED FIGMA LINK -->
+
 <a name="design-best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use on content-heavy pages that require a significant amount of scrolling to access the various sections.
+* Be concise on the navigation labels, ideally one or two words rather than a phrase.
+* Make sure all the children of the Tab component are Sections
 
 <a name="design-best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
-
+* Don’t use on pages which don’t scroll.
+* Don’t use the Tab to link to a new page.
+* Don’t use the Tab to link to hidden content.
 
 
  
