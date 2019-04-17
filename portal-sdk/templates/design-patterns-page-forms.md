@@ -95,7 +95,10 @@ Include placeholder text can be formatted in two ways:
 </div>
 
 #### Field validation
-Don’t make users guess password requirements. Instead, include the password validation tool in your experience.
+Don’t make users guess field (TextBox) or password (PasswordBox) requirements. Instead, enable field validations for TextBox and PasswordBox in your experience.  You can enable the showValidationsAsPopup option to give the user feedback as they type.
+
+* TextBox [design-patterns-controls-TextBox.md](design-patterns-controls-TextBox.md)
+* PasswordBox [design-patterns-controls-PasswordBox.md](design-patterns-controls-PasswordBox.md)
 
 <div style="max-width:300px">
 <img alttext="Form validation" src="../media/design-patterns-page-forms/form-validation.png"  />
@@ -105,13 +108,8 @@ Don’t make users guess password requirements. Instead, include the password va
 Provide highly visible and specific error messages.
 
 ### Control recommendations
-#### Use radio buttons instead of toggles
-The blue and white toggle used in the portal today has tested poorly among users because it's unclear which option is selected, especially if the choice is between 2 options.
-
-The current guidance is to use radio buttons in favor of the toggle.
-<div style="max-width:150px">
-<img alttext="Radio control" src="../media/design-patterns-page-forms/radio-control.png"  />
-</div>
+Visit the control guidance to help you in selecting the right control for your page
+* Controls guidance [design-patterns-controls.md](design-patterns-controls.md)
 
 ### Command button recommendations
 The buttons for submitting and canceling a form should follow these recommendations.  The sections for each type of form follow this list and call out any special casing for that form type.  Sometimes a forms blade is invoked from multiple places.  For example, the `Tag resource` blade is invoked from a resource menu on most Azure resource and also invoked in a context pane from the essentials control.  In this case, the `Tag resource` blade is designed as a fullscreen blade form opened from a resource menu and does not follow the recommendations of a typical context blade form.
@@ -151,18 +149,17 @@ Follow the button recommendations above
 
 
 ## Do
--   Use inline labels and fields for full screen pages and stacked labels and fields for narrow blades
+-   Use inline labels and fields for full screen pages and stacked labels and fields for narrow blades.  This behavior is controlled by the Section leftLabelPosition option
 
 -   Mark required fields with a red asterisk * to distinguish them from optional fields
 
--   Include info bubbles if there are input fields that may not be immediately familiar
+-   Include info balloons (InfoBalloon) if there are input fields that may not be immediately familiar
 
 -   Left align the input fields on the page. Jagged edges are difficult to skim
 
 -   Visually group related labels and fields. [Labels should be close to the fields](https://www.nngroup.com/articles/form-design-white-space/) they describe (immediately above the field for context panes or next to the field for long forms). Avoid ambiguous spacing where labels are equidistant from multiple fields.
 
 ## Don't 
--   Don't use the toggle picker when a property has two options. (See above 'Toggles vs radio buttons')
 
 -   Don't phrase labels as questions. Keep labels short and sweet.
 
@@ -172,6 +169,12 @@ Follow the button recommendations above
 
 
 ## Related design guidelines
+
+* Controls guidance [design-patterns-controls.md](design-patterns-controls.md)
+* InfoBalloon [design-patterns-controls-InfoBalloon.md](design-patterns-controls-InfoBalloon.md)
+* PasswordBox [design-patterns-controls-PasswordBox.md](design-patterns-controls-PasswordBox.md)
+* TextBox [design-patterns-controls-TextBox.md](design-patterns-controls-TextBox.md)
+* Section [design-patterns-controls-Section.md](design-patterns-controls-Section.md)
 * Full screen [design-patterns-page-fullscreen.md](design-patterns-page-fullscreen.md)
 * Create a Resource [design-patterns-resource-create.md](design-patterns-resource-create.md)
 * Design guidelines [top-design.md](top-design.md)
@@ -185,6 +188,8 @@ Follow the button recommendations above
 Developers can use the following information to get started implementing this pattern
 
 ## Tips and tricks
+* To show the labels and input field on the same line - include your controls in a Section and set the leftLabelPosition option to true.
+
 
 ## Related documentation
 * Dialog [top-extensions-dialogs.md](top-extensions-dialogs.md)

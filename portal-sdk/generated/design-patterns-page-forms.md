@@ -114,7 +114,10 @@ Include placeholder text can be formatted in two ways:
 
 <a name="behavior-validation-field-validation"></a>
 #### Field validation
-Don’t make users guess password requirements. Instead, include the password validation tool in your experience.
+Don’t make users guess field (TextBox) or password (PasswordBox) requirements. Instead, enable field validations for TextBox and PasswordBox in your experience.  You can enable the showValidationsAsPopup option to give the user feedback as they type.
+
+* TextBox [design-patterns-controls-TextBox.md](design-patterns-controls-TextBox.md)
+* PasswordBox [design-patterns-controls-PasswordBox.md](design-patterns-controls-PasswordBox.md)
 
 <div style="max-width:300px">
 <img alttext="Form validation" src="../media/design-patterns-page-forms/form-validation.png"  />
@@ -126,14 +129,8 @@ Provide highly visible and specific error messages.
 
 <a name="behavior-control-recommendations"></a>
 ### Control recommendations
-<a name="behavior-control-recommendations-use-radio-buttons-instead-of-toggles"></a>
-#### Use radio buttons instead of toggles
-The blue and white toggle used in the portal today has tested poorly among users because it's unclear which option is selected, especially if the choice is between 2 options.
-
-The current guidance is to use radio buttons in favor of the toggle.
-<div style="max-width:150px">
-<img alttext="Radio control" src="../media/design-patterns-page-forms/radio-control.png"  />
-</div>
+Visit the control guidance to help you in selecting the right control for your page
+* Controls guidance [design-patterns-controls.md](design-patterns-controls.md)
 
 <a name="behavior-command-button-recommendations"></a>
 ### Command button recommendations
@@ -180,11 +177,11 @@ Follow the button recommendations above
 
 <a name="do"></a>
 ## Do
--   Use inline labels and fields for full screen pages and stacked labels and fields for narrow blades
+-   Use inline labels and fields for full screen pages and stacked labels and fields for narrow blades.  This behavior is controlled by the Section leftLabelPosition option
 
 -   Mark required fields with a red asterisk * to distinguish them from optional fields
 
--   Include info bubbles if there are input fields that may not be immediately familiar
+-   Include info balloons (InfoBalloon) if there are input fields that may not be immediately familiar
 
 -   Left align the input fields on the page. Jagged edges are difficult to skim
 
@@ -192,7 +189,6 @@ Follow the button recommendations above
 
 <a name="don-t"></a>
 ## Don&#39;t
--   Don't use the toggle picker when a property has two options. (See above 'Toggles vs radio buttons')
 
 -   Don't phrase labels as questions. Keep labels short and sweet.
 
@@ -203,6 +199,12 @@ Follow the button recommendations above
 
 <a name="related-design-guidelines"></a>
 ## Related design guidelines
+
+* Controls guidance [design-patterns-controls.md](design-patterns-controls.md)
+* InfoBalloon [design-patterns-controls-InfoBalloon.md](design-patterns-controls-InfoBalloon.md)
+* PasswordBox [design-patterns-controls-PasswordBox.md](design-patterns-controls-PasswordBox.md)
+* TextBox [design-patterns-controls-TextBox.md](design-patterns-controls-TextBox.md)
+* Section [design-patterns-controls-Section.md](design-patterns-controls-Section.md)
 * Full screen [design-patterns-page-fullscreen.md](design-patterns-page-fullscreen.md)
 * Create a Resource [design-patterns-resource-create.md](design-patterns-resource-create.md)
 * Design guidelines [top-design.md](top-design.md)
@@ -220,6 +222,8 @@ Developers can use the following information to get started implementing this pa
 
 <a name="for-developers-tips-and-tricks"></a>
 ## Tips and tricks
+* To show the labels and input field on the same line - include your controls in a Section and set the leftLabelPosition option to true.
+
 
 <a name="for-developers-related-documentation"></a>
 ## Related documentation
