@@ -9,15 +9,6 @@ The TimePicker component enables a user to pick a time.
 
 <!-- TODO get an IMAGE to embed here -->
 
-<a name="basics-interact-with-the-control-and-get-sample-source-code"></a>
-### Interact with the control and get sample source code
-To see the latest control, change options and get source code for your project, click here.
-
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/TimePickerPlayground" target="_blank">TimePicker in the interactive controls playground</a>
-
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
-
-
 <!-- TODO get an SAMPLE CODE to embed here -->
 
  
@@ -36,19 +27,17 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
 
 
  
-<a name="basics-design-best-practices"></a>
-### Design best practices
+<a name="basics-best-practices"></a>
+### Best practices
 
-<a name="basics-design-best-practices-figma-design-toolkit"></a>
-#### Figma design toolkit
 
-<a name="basics-design-best-practices-do"></a>
+<a name="basics-best-practices-do"></a>
 #### Do
 
 * Use the control as a single entity.
 * The control is designed to resize relative to available screen width. Allow it to render in either wide or narrow as appropriate.
 
-<a name="basics-design-best-practices-don-t"></a>
+<a name="basics-best-practices-don-t"></a>
 #### Don&#39;t
 
 * Don't attempt to force resize the control in any way.
@@ -62,9 +51,18 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
 
 
 
+<a name="basics-interactive-control-and-sample-source-code"></a>
+### Interactive control and sample source code
+To see the latest control, change options and get source code for your project, click here.
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/TimePickerPlayground" target="_blank">TimePicker in the interactive controls playground</a>
+
+Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+
+
  
-<a name="basics-related-docs"></a>
-### Related docs
+<a name="basics-related-info"></a>
+### Related info
 
 For overall Azure design guidance see http://aka.ms/portalfx/design
 

@@ -8,15 +8,6 @@ A Slider is an element used to set a value. It provides a visual indication of a
 
 <!-- TODO get an IMAGE to embed here -->
 
-<a name="interact-with-the-control-and-get-sample-source-code"></a>
-### Interact with the control and get sample source code
-To see the latest control, change options and get source code for your project, click here.
-
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/SliderPlayground" target="_blank">Slider in the interactive controls playground</a>
-
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
-
-
 <!-- TODO get an SAMPLE CODE to embed here -->
 
  
@@ -26,15 +17,10 @@ A Slider is a good choice when you know that users think of the value as a relat
 
 
  
-<a name="design-best-practices"></a>
-### Design best practices
+<a name="best-practices"></a>
+### Best practices
 
-<a name="design-best-practices-figma-design-toolkit"></a>
-#### Figma design toolkit
-
-https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393895 
-
-<a name="design-best-practices-do"></a>
+<a name="best-practices-do"></a>
 #### Do
 
 * Consider a Slider when changing a value.
@@ -43,7 +29,7 @@ https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3
 * Use step points (or tick marks) if you don’t want the Slider to allow arbitrary values between min and max.
 * Use a Slider when the user would benefit from instant feedback on the effect of setting changes.
 
-<a name="design-best-practices-don-t"></a>
+<a name="best-practices-don-t"></a>
 #### Don&#39;t
 
 * Don't use a Slider when the options are not values.
@@ -58,9 +44,20 @@ https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3
 
 
 
+<a name="interactive-control-and-sample-source-code"></a>
+### Interactive control and sample source code
+To see the latest control, change options and get source code for your project, click here.
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/SliderPlayground" target="_blank">Slider in the interactive controls playground</a>
+
+Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+
+
  
-<a name="related-docs"></a>
-### Related docs
+<a name="related-info"></a>
+### Related info
+
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393895" target="_blank">Slider design in figma</a> 
 
 For overall Azure design guidance see http://aka.ms/portalfx/design
 

@@ -88,6 +88,14 @@ export class OpenBladeApiSamplesViewModel
     public readonly onOpenChildBladeLinkClickWithResourceLink: ResourceLink;
 
     /**
+     * Renders a resource link as part of a standard HTML anchor tag from the template,
+     * with an observable inner ResourceID,
+     * allowing for common browser operations like Ctrl + Click to open in new tab,
+     * Right click -> copy link to copy to clipboard, etc. in addition to opening the blade on normal click.
+     */
+    public readonly onOpenChildBladeLinkClickWithDynamicResourceLink: ResourceLink;
+
+    /**
      * Renders a ClickableLink as part of a standard HTML anchor tag from the template,
      * allowing for common browser operations like Ctrl + Click to open in new tab,
      * Right click -> copy link to copy to clipboard, etc. in addition to opening the blade on normal click.
@@ -95,6 +103,7 @@ export class OpenBladeApiSamplesViewModel
     public readonly onLinkClickWithClickableLink: ClickableLink;
 
     public readonly bladeRefPicker: OptionsGroup.Contract<any>;
+    public readonly resourceIdPicker: OptionsGroup.Contract<any>;
     public readonly fxclickPicker: OptionsGroup.Contract<any>;
 
     /**
@@ -121,6 +130,11 @@ export class OpenBladeApiSamplesViewModel
      * Observable BladeReference to hook up within the dynamic BladeLink.
      */
     private readonly dynamicBladeRef = ko.observable(BladeReferences.forBlade("OpenBladeApiChildBlade").createReference());
+
+    /**
+     * Observable BladeReference to hook up within the dynamic BladeLink.
+     */
+    private readonly dynamicResourceId = ko.observable("/subscriptions/sub123/resourceGroups/accounts/providers/Microsoft.test/accounts/Peter");
 
     /**
      * Dynamnic fxclick which wraps in an observable any of the four possible functions:
@@ -209,34 +223,57 @@ export class OpenBladeApiSamplesViewModel
 
         this.bladeRefPicker = OptionsGroup.create(this._container, {
             label: Resources.bladeRefPickerLabel,
-            items: [{
-                text: Resources.validChildBlade,
-                value: Resources.validChildBlade,
-            }, {
-                text: Resources.validBlade,
-                value: Resources.validBlade,
-            }, {
-                text: Resources.nullBladeRefLabel,
-                value: Resources.nullBladeRefLabel,
-            },
-        ]});
+            items: [
+                {
+                    text: Resources.validChildBlade,
+                    value: Resources.validChildBlade,
+                },
+                {
+                    text: Resources.validBlade,
+                    value: Resources.validBlade,
+                },
+                {
+                    text: Resources.nullBladeRefLabel,
+                    value: Resources.nullBladeRefLabel,
+                },
+            ],
+        });
+
+        this.resourceIdPicker = OptionsGroup.create(this._container, {
+            label: Resources.resourceIdPickerLabel,
+            items: [
+                {
+                    text: Resources.validResource,
+                    value: Resources.validResource,
+                },
+                {
+                    text: Resources.nullResourceIdLabel,
+                    value: Resources.nullResourceIdLabel,
+                },
+            ],
+        });
 
         this.fxclickPicker = OptionsGroup.create(this._container, {
             label: Resources.fxclickPickerLabel,
-            items: [{
-                text: Resources.callback,
-                value: Resources.callback,
-            }, {
-                text: Resources.bladeLink,
-                value: Resources.bladeLink,
-            }, {
-                text: Resources.resourceLink,
-                value: Resources.resourceLink,
-            }, {
-                text: Resources.clickableLink,
-                value: Resources.clickableLink,
-            },
-        ]});
+            items: [
+                {
+                    text: Resources.callback,
+                    value: Resources.callback,
+                },
+                {
+                    text: Resources.bladeLink,
+                    value: Resources.bladeLink,
+                },
+                {
+                    text: Resources.resourceLink,
+                    value: Resources.resourceLink,
+                },
+                {
+                    text: Resources.clickableLink,
+                    value: Resources.clickableLink,
+                },
+            ],
+        });
 
         this._onCallbackFxclickClick = () => {
             this._container.openBlade(BladeReferences.forBlade("OpenBladeApiChildBlade").createReference());
@@ -287,6 +324,10 @@ export class OpenBladeApiSamplesViewModel
 
         this.onOpenChildBladeLinkClickWithResourceLink = {
             resourceId: "/subscriptions/sub123/resourceGroups/accounts/providers/Microsoft.test/accounts/Peter",
+        };
+
+        this.onOpenChildBladeLinkClickWithDynamicResourceLink = {
+            resourceId: this.dynamicResourceId,
             onLinkOpened: (keypress) => {
                 this.resourceLinkClickCount(this.resourceLinkClickCount() + 1);
 
@@ -321,6 +362,7 @@ export class OpenBladeApiSamplesViewModel
         this._initializeHotSpotSample(container);
         this._initializeGridSample(container, dataContext);
         this._initializeBladeLinkSample(container);
+        this._initializeResouceLinkSample(container);
         this._initializeDynamicFxclickLinkSample(container);
     }
 
@@ -415,6 +457,16 @@ export class OpenBladeApiSamplesViewModel
                 this.dynamicBladeRef(BladeReferences.forBlade("OpenBladeApiSamples").createReference());
             } else if (Resources.validChildBlade === value) {
                 this.dynamicBladeRef(BladeReferences.forBlade("OpenBladeApiChildBlade").createReference());
+            }
+        });
+    }
+
+    private _initializeResouceLinkSample(container: BladeContainer) {
+        this.resourceIdPicker.value.subscribe(container, (value) => {
+            if (Resources.nullResourceIdLabel === value) {
+                this.dynamicResourceId(null);
+            } else if (Resources.validResource === value) {
+                this.dynamicResourceId("/subscriptions/sub123/resourceGroups/accounts/providers/Microsoft.test/accounts/Peter");
             }
         });
     }

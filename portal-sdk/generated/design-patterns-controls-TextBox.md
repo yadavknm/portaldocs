@@ -9,15 +9,6 @@ The TextBox component enables a user to type text into an app. It's typically us
 
 <!-- TODO get an IMAGE to embed here -->
 
-<a name="interact-with-the-control-and-get-sample-source-code"></a>
-### Interact with the control and get sample source code
-To see the latest control, change options and get source code for your project, click here.
-
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/TextBoxPlayground" target="_blank">TextBox in the interactive controls playground</a>
-
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
-
-
 <!-- TODO get an SAMPLE CODE to embed here -->
 
  
@@ -27,15 +18,10 @@ Use the TextBox to enable the user to enter text.
 
 
  
-<a name="design-best-practices"></a>
-### Design best practices
+<a name="best-practices"></a>
+### Best practices
 
-<a name="design-best-practices-figma-design-toolkit"></a>
-#### Figma design toolkit
-
-https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3025%3A378138 
-
-<a name="design-best-practices-do"></a>
+<a name="best-practices-do"></a>
 #### Do
 
 * Use the TextBox to accept data input on a form or page.
@@ -51,7 +37,7 @@ https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3
 * Ensure that the TextBox is functional through use of mouse/keyboard or touch when available.
 * Ensure that the TextBox is accessible through screen reader and/or other accessibility tools.
 
-<a name="design-best-practices-don-t"></a>
+<a name="best-practices-don-t"></a>
 #### Don&#39;t
 
 * Don’t use a TextBox to render basic copy as part of a body element of a page.
@@ -67,9 +53,20 @@ https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3
 
 
 
+<a name="interactive-control-and-sample-source-code"></a>
+### Interactive control and sample source code
+To see the latest control, change options and get source code for your project, click here.
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/TextBoxPlayground" target="_blank">TextBox in the interactive controls playground</a>
+
+Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+
+
  
-<a name="related-docs"></a>
-### Related docs
+<a name="related-info"></a>
+### Related info
+
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3025%3A378138" target="_blank">TextBox design in figma</a>
 
 For overall Azure design guidance see http://aka.ms/portalfx/design
 

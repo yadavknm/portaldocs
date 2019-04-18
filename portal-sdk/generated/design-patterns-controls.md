@@ -7,7 +7,10 @@ Controls are the building blocks of the Azure UX. They allow users to view, edit
 
 * Button [design-patterns-controls-button.md](design-patterns-controls-button.md)
 * CheckBox [design-patterns-controls-CheckBox.md](design-patterns-controls-CheckBox.md)
+* DiffEditor [design-patterns-controls-DiffEditor.md](design-patterns-controls-DiffEditor.md)
 * DropDown [design-patterns-controls-DropDown.md](design-patterns-controls-DropDown.md)
+* EditableGrid [design-patterns-controls-EditableGrid.md](design-patterns-controls-EditableGrid.md)
+* Editor [design-patterns-controls-Editor.md](design-patterns-controls-Editor.md)
 * FileUpload [design-patterns-controls-fileupload.md](design-patterns-controls-fileupload.md)
 * InputParameters [design-patterns-controls-InputParameters.md](design-patterns-controls-InputParameters.md)
 * MultiLineTextBox [design-patterns-controls-MultiLineTextBox.md](design-patterns-controls-MultiLineTextBox.md)
@@ -25,6 +28,8 @@ Controls are the building blocks of the Azure UX. They allow users to view, edit
 
 <a name="navigation"></a>
 ## Navigation
+* Pill [design-patterns-controls-Pill.md](design-patterns-controls-Pill.md)
+* PillCollection [design-patterns-controls-PillCollection.md](design-patterns-controls-PillCollection.md)
 * SearchBox [design-patterns-controls-SearchBox.md](design-patterns-controls-SearchBox.md)
 * TabControl [design-patterns-controls-TabControl.md](design-patterns-controls-TabControl.md)
 
@@ -32,6 +37,7 @@ Controls are the building blocks of the Azure UX. They allow users to view, edit
 ## Layout
 * Accordion [design-patterns-controls-accordion.md](design-patterns-controls-accordion.md)
 * Section [design-patterns-controls-Section.md](design-patterns-controls-Section.md)
+* Splitter [design-patterns-controls-Splitter.md](design-patterns-controls-Splitter.md)
 * Toolbar [design-patterns-controls-Toolbar.md](design-patterns-controls-Toolbar.md)
 
 <a name="content"></a>
@@ -40,13 +46,17 @@ Controls are the building blocks of the Azure UX. They allow users to view, edit
 * BarChart [design-patterns-controls-BarChart.md](design-patterns-controls-BarChart.md)
 * CopyableLabel [design-patterns-controls-CopyableLabel.md](design-patterns-controls-CopyableLabel.md)
 * CustomHtml [design-patterns-controls-CustomHtml.md](design-patterns-controls-CustomHtml.md)
+* DataGrid [design-patterns-controls-DataGrid.md](design-patterns-controls-DataGrid.md)
+* DocsControl [design-patterns-controls-DocsControl.md](design-patterns-controls-DocsControl.md)
 * Donut [design-patterns-controls-Donut.md](design-patterns-controls-Donut.md)
+* Essentials [design-patterns-controls-Essentials.md](design-patterns-controls-Essentials.md)
 * InfoBalloon [design-patterns-controls-InfoBalloon.md](design-patterns-controls-InfoBalloon.md)
 * InfoBox [design-patterns-controls-InfoBox.md](design-patterns-controls-InfoBox.md)
 * FileDownload [design-patterns-controls-FileDownload.md](design-patterns-controls-FileDownload.md)
 * FrameControl [design-patterns-controls-FrameControl.md](design-patterns-controls-FrameControl.md)
 * Legend [design-patterns-controls-Legend.md](design-patterns-controls-Legend.md)
 * LineChart [design-patterns-controls-LineChart.md](design-patterns-controls-LineChart.md)
+* ListView [design-patterns-controls-ListView.md](design-patterns-controls-ListView.md)
 * LogStream [design-patterns-controls-LogStream.md](design-patterns-controls-LogStream.md)
 * Map [design-patterns-controls-Map.md](design-patterns-controls-Map.md)
 * Markdown [design-patterns-controls-Markdown.md](design-patterns-controls-Markdown.md)
@@ -54,6 +64,7 @@ Controls are the building blocks of the Azure UX. They allow users to view, edit
 * MonitorChart [design-patterns-controls-MonitorChart.md](design-patterns-controls-MonitorChart.md)
 * QuotaGauge [design-patterns-controls-QuotaGauge.md](design-patterns-controls-QuotaGauge.md)
 * ScatterChart [design-patterns-controls-ScatterChart.md](design-patterns-controls-ScatterChart.md)
+* SingleMetric [design-patterns-controls-SingleMetric.md](design-patterns-controls-SingleMetric.md)
 * SingleValueGauge [design-patterns-controls-SingleValueGauge.md](design-patterns-controls-SingleValueGauge.md)
 * Summary [design-patterns-controls-Summary.md](design-patterns-controls-Summary.md)
 * Video [design-patterns-controls-Video.md](design-patterns-controls-Video.md)

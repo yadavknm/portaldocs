@@ -215,7 +215,6 @@ galleryMetadata: {
     thumbnail: {
         path: "../../../AmdSvg/sample.svg",
         isLogo: true,
-        stretch: TemplatePart.PartGalleryThumbnailStretch.Fill,
     },
 },
 parameterMetadata: {
