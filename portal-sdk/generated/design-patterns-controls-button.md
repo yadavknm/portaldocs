@@ -8,14 +8,6 @@ Buttons are best used to enable a user to commit a change or complete steps in a
 
 <!-- TODO get an IMAGE to embed here -->
 
-<a name="interact-with-the-control-and-get-sample-source-code"></a>
-### Interact with the control and get sample source code
-To see the latest control, change options and get source code for your project, click here.
-
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/ButtonPlayground" target="_blank">Button in the interactive controls playground</a>
-
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
-
 
 <!-- TODO get an SAMPLE CODE to embed here -->
 
@@ -28,15 +20,10 @@ While buttons can technically be used to navigate a user to another part of the 
 
 
  
-<a name="design-best-practices"></a>
-### Design best practices
+<a name="best-practices"></a>
+### Best practices
 
-<a name="design-best-practices-figma-design-toolkit"></a>
-#### Figma design toolkit
-
-https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit-–-v3-(Vanadium-release)?node-id=3019%3A285
-
-<a name="design-best-practices-do"></a>
+<a name="best-practices-do"></a>
 #### Do
 
 * Make sure the label conveys a clear purpose of the button to the user.
@@ -51,7 +38,7 @@ https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit-–-v3-(V
 * Default buttons should always perform safe operations. For example, a default button should never delete.
 * Use task buttons to cause actions that complete a task or cause a transitional task. Do not use buttons to toggle other UX in the same context. For example, a button may be used to open an interface area but should not be used to open an additional set of components in the same interface.
 
-<a name="design-best-practices-don-t"></a>
+<a name="best-practices-don-t"></a>
 #### Don&#39;t
 
 * Don't use generic labels like "Ok," especially in the case of an error; errors are never "Ok."
@@ -67,9 +54,19 @@ Don't put anything other than text in a button.
 
 
 
+<a name="interactive-control-and-sample-source-code"></a>
+### Interactive control and sample source code
+To see the latest control, change options and get source code for your project, click here.
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/ButtonPlayground" target="_blank">Button in the interactive controls playground</a>
+
+Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+
  
-<a name="related-docs"></a>
-### Related docs
+<a name="related-info"></a>
+### Related info
+
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3019%3A285" target="_blank">Button design in figma</a>
 
 For overall Azure design guidance see http://aka.ms/portalfx/design
 
