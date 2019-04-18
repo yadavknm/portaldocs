@@ -16,6 +16,13 @@ A DropDown is a list in which the selected item is always visible, and the other
 ### When to use
 DropDowns are used to simplify the design and make a choice within the UI. When closed, only the selected item is visible. When users click the drop-down button, all the options become visible. To change the value, users open the list and click another value or use the arrow keys (up and down) to select a new value.
 
+DropDown offers the following options:
+* Grouping of items 
+* Filtering / Searching 
+* Multiselect + Select all
+* HTML formatting of items 
+
+
 
  
 <a name="best-practices"></a>
