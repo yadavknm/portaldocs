@@ -56,6 +56,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

@@ -57,8 +57,8 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3546%3A1016" target="_blank">Control design in figma</a>
+* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3546%3A1016" target="_blank">Control design in figma</a>
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

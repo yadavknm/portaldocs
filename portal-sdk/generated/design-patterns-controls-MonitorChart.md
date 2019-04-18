@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The MonitorChart control plots the metrics for your resource in Azure. It inherently knows how to fetch data for your resource.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the MonitorChart to plot metrics for your resource.
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -65,6 +67,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 
