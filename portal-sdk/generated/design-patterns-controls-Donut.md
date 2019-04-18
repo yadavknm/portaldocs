@@ -3,6 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
+Donut charts are a great way to visualize proportional data.
+
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +14,22 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use Donut charts to display data slices that are part of a whole.
+
+The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
+* AreaChart
+* BarChart
+* Donut
+* LineChart
+* Map
+* Metrics
+* MonitorChart
+* QuotaGauge
+* ScatterChart
+* SingleMetric
+* SingleValueGauge
+
+
 
 
  
@@ -42,7 +60,7 @@
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DonutPlayground" target="_blank">Donut in the interactive controls playground</a>
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Donut_create_Playground" target="_blank">Donut in the interactive controls playground</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 

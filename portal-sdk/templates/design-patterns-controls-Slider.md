@@ -15,7 +15,11 @@
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/SliderPlayground" target="_blank">Slider in the interactive controls playground</a>
+The Slider control offers different create methods and has the following entries in the interactive controls playground
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Slider_createSimpleSlider_Playground" target="_blank">Slider (SimpleSlider)</a>
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Slider_createCustomSlider_Playground" target="_blank">Slider (CustomSlider)</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
