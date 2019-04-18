@@ -51,6 +51,8 @@ When a resource is opened in azure the resource menu is loaded and the Overview 
 ### Resource menu
 The resource menu offers a way to navigate to all pages related to the resource. The navigation includes pages that are common to all resources throughout the portal. Your resource will get those "for free," although some common pages require onboarding by the resource provider. You can have additional pages for your resource.  Refer to the table below to make sure each item is grouped properly. Learn more [Resource Menu](top-blades-resourcemenublade.md)
 
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3059%3A368196" target="_blank">ResourceMenu design in figma</a> 
+
 <table style="width:800px; border-style:none; cellpadding=10px">
 <tr>
 <td width="30%" align=center valign=top>
@@ -202,6 +204,8 @@ diagnose/troubleshooting and resource health menu items 
 
 
 ## Related documentation
+
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3059%3A368196" target="_blank">ResourceMenu design in figma</a> 
 
 * Resource Menu [top-blades-resourcemenublade.md](./top-blades-resourcemenublade.md)
 * Essentials [portalfx-controls-essentials.md](./portalfx-controls-essentials.md)
