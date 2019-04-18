@@ -39,13 +39,14 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use MonitorChart for Azure metrics data
+* Label your metric
+* Consider whether a click on your chart should perform an action - one common action is to navigate to the metrics menu item.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Display every possible metric for your resource, just show a select few.
 
 
 

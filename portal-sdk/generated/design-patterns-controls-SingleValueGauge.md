@@ -3,6 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
+SingleValueGauge shows the status of a current value against an optional total.  
+
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +14,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the SingleValueGauge to show a current value in relation to a total.  For example, the user may want to understand how much money they have spent in relation to their typical monthly spend (total).
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -37,13 +40,13 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Ensure the gauge visualization makes sense for your data set
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use SingleValueGauge if the user also needs to understand a quota (limit) - use the QuotaGauge instead
 
 
 

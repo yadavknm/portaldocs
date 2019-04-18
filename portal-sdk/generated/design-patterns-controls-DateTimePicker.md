@@ -52,9 +52,9 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
-By default, this control displays date according to the user's local [timezoneoffset](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset). If the `showTimezoneDropdown` option is supplied as `true`, users can choose a timezoneoffset using the Timezone Dropdown. The viewmodel's `value` property will *always* normalize the date/time value to the user's local timezoneoffset. Typically, backends will return UTC dates, and these will be converted by the DateTimePicker control such that the view model `value` property will reflect the user's locale.
+By default, this control displays date according to the user's local [timezoneoffset](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset). If the showTimezoneDropdown option is supplied as true, users can choose a timezoneoffset using the Timezone Dropdown. The viewmodel's value property will *always* normalize the date/time value to the user's local timezoneoffset. Typically, backends will return UTC dates, and these will be converted by the DateTimePicker control such that the view model value property will reflect the user's locale.
 
-Be aware that [timezoneoffset](http://tantek.com/2015/218/b1/use-timezone-offsets) !== timezone. If you need to use timezones (e.g., to ensure constant scheduling time), you should set `showTimezoneDropdown` to `false`, and use separate dropdown control populated with timezones used on your backend (which may vary, but preferably [IANA timezones](https://www.iana.org/time-zones)).
+Be aware that [timezoneoffset](http://tantek.com/2015/218/b1/use-timezone-offsets) !== timezone. If you need to use timezones (e.g., to ensure constant scheduling time), you should set showTimezoneDropdown to false, and use separate dropdown control populated with timezones used on your backend (which may vary, but preferably [IANA timezones](https://www.iana.org/time-zones)).
 
 
 <a name="interactive-control-and-sample-source-code"></a>

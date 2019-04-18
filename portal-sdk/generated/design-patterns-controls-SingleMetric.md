@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+SingleMetric shows a single value for a metric
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use SingleMetric to show a single value for a metric.  For example, what is the current CPU utilization of a VM.
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -37,13 +39,12 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Clearly label the metric
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't show a single metric if a few more would help the user understand the situation better.  The Metrics control can display multiple metrics.
 
 
 

@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+Metrics shows a single value for a set of metrics
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use Metrics to show multiple metrics for easy comparison of those values.  For example, the user may want to know the current CPU, Memory and free storage for a VM
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -37,13 +39,12 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Clearly label the metrics
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't overwhelm the user by showing too many metrics.
 
 
 

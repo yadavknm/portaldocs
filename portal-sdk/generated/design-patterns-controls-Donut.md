@@ -14,7 +14,7 @@ Donut charts are a great way to visualize proportional data.
  
 <a name="when-to-use"></a>
 ### When to use
-Use Donut charts to display data slices that are part of a whole.
+Use Donut charts to display data slices that are part of a whole.  
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -40,13 +40,13 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use a Donut chart to display data that represents the parts of a whole set
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use a Donut to display data that has no relationship to a whole set
 
 
 

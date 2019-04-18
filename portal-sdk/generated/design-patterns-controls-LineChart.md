@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+A LineChart displays a series of data points connected by straight line segments.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use a line chart visualize a trend in data over time.
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -36,13 +38,12 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Limit the number of data sets to 5 or fewer
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Put too many data sets on the same chart
 
 
 

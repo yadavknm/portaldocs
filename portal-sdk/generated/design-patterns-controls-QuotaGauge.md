@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+QuotaGauge shows the status of a current value against a quota (limit) and total.  When the current value exceeds the quota value, the QuotaGauge displays an error indicator.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the QuotaGauge to show a current value in relation to a quota (limit) and total.  For example, the user may want to understand how much money they have spent in relation to their budget (quota) and projected total.
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -37,13 +39,13 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Ensure the quota (limit) value for the data being displayed makes sense
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use QuotaGauge if there is no natural (quota) - use the SingleValueGauge instead
 
 
 

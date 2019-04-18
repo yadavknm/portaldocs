@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+BarChart displays categorical data using rectangular bars of proportional length to represent values.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use a BarChart to show comparisons between discrete categories.
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * AreaChart
@@ -27,8 +29,6 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 * SingleValueGauge
 
 
-
-
  
 <a name="best-practices"></a>
 ### Best practices
@@ -37,13 +37,14 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use the BarChart to compare 2 to 5 quantitative sets of data
+* Decide whether the grouped or stacked visualization provides the easiest to understand comparison
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Put too many different sets of data into the same chart
 
 
 
