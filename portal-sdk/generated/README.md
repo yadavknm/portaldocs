@@ -142,11 +142,11 @@ When using HTML and framework controls you have some control over styling. These
 
 * [Styling and theming](/portal-sdk/generated/top-extensions-styling.md)
 
-* [HTML, CSS, and SVG sanitization](/portal-sdk/generated/top-extensions-styling.md#html-and-css-sanitization)
+* [HTML, CSS, and SVG sanitization](/portal-sdk/generated/top-extensions-styling.md#html-css-and-svg-sanitization)
 
 * [Adding custom CSS](/portal-sdk/generated/top-extensions-styling.md#adding-custom-css)
 
-* [Layout classes](/portal-sdk/generated/top-extensions-styling.md#layout-classes)
+* [Blade Layout patterns](/portal-sdk/generated/top-extensions-styling.md#blade-layout-patterns)
 
 * [Theming](/portal-sdk/generated/top-extensions-styling.md#theming)
 
