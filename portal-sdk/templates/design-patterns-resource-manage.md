@@ -90,7 +90,7 @@ Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn
 **Support + troubleshooting - Tools to help users find and resolve issues**
 * Resource health
 * _any resource-specific items_
-* Create support request
+* New support request
 </td>
 </tr>
 </table>
