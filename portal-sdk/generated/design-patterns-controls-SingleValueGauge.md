@@ -3,6 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
+SingleValueGauge shows the status of a current value against an optional total.  
+
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +14,22 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the SingleValueGauge to show a current value in relation to a total.  For example, the user may want to understand how much money they have spent in relation to their typical monthly spend (total).
+
+The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
+* AreaChart
+* BarChart
+* Donut
+* LineChart
+* Map
+* Metrics
+* MonitorChart
+* QuotaGauge
+* ScatterChart
+* SingleMetric
+* SingleValueGauge
+
+
 
 
  
@@ -22,13 +40,13 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Ensure the gauge visualization makes sense for your data set
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use SingleValueGauge if the user also needs to understand a quota (limit) - use the QuotaGauge instead
 
 
 
@@ -42,7 +60,7 @@
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/SingleValueGaugePlayground" target="_blank">SingleValueGauge in the interactive controls playground</a>
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/SingleValueGauge_create_Playground" target="_blank">SingleValueGauge in the interactive controls playground</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
@@ -51,6 +69,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

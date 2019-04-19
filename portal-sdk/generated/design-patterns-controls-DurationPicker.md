@@ -54,7 +54,7 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DurationPickerPlayground" target="_blank">DurationPicker in the interactive controls playground</a>
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DurationPicker_create_Playground" target="_blank">DurationPicker in the interactive controls playground</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
@@ -62,6 +62,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="basics-related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

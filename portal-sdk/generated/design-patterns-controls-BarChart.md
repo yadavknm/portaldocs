@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+BarChart displays categorical data using rectangular bars of proportional length to represent values.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,20 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use a BarChart to show comparisons between discrete categories.
+
+The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
+* AreaChart
+* BarChart
+* Donut
+* LineChart
+* Map
+* Metrics
+* MonitorChart
+* QuotaGauge
+* ScatterChart
+* SingleMetric
+* SingleValueGauge
 
 
  
@@ -22,13 +37,14 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use the BarChart to compare 2 to 5 quantitative sets of data
+* Decide whether the grouped or stacked visualization provides the easiest to understand comparison
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Put too many different sets of data into the same chart
 
 
 
@@ -42,7 +58,7 @@
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/BarChartPlayground" target="_blank">BarChart in the interactive controls playground</a>
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/BarChart_create_Playground" target="_blank">BarChart in the interactive controls playground</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
@@ -50,6 +66,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

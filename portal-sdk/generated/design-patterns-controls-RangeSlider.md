@@ -42,7 +42,11 @@
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/RangeSliderPlayground" target="_blank">RangeSlider in the interactive controls playground</a>
+The RangeSlider control offers different create methods and has the following entries in the interactive controls playground
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/RangeSlider_createSimpleRangeSlider_Playground" target="_blank">RangeSlider (SimpleRangeSlider)</a>
+
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/RangeSlider_createCustomRangeSlider_Playground" target="_blank">RangeSlider (CustomRangeSlider)</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
@@ -51,6 +55,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

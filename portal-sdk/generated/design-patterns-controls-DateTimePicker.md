@@ -3,7 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
-The DateTimePicker component enables a user to pick a date and time value.
+The DateTimePicker control provides an easy way select date and time, e.g. 6/5/2017 1:45:00 PM.
 
 
 
@@ -30,7 +30,6 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
@@ -53,14 +52,16 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
+By default, this control displays date according to the user's local [timezoneoffset](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset). If the showTimezoneDropdown option is supplied as true, users can choose a timezoneoffset using the Timezone Dropdown. The viewmodel's value property will *always* normalize the date/time value to the user's local timezoneoffset. Typically, backends will return UTC dates, and these will be converted by the DateTimePicker control such that the view model value property will reflect the user's locale.
 
+Be aware that [timezoneoffset](http://tantek.com/2015/218/b1/use-timezone-offsets) !== timezone. If you need to use timezones (e.g., to ensure constant scheduling time), you should set showTimezoneDropdown to false, and use separate dropdown control populated with timezones used on your backend (which may vary, but preferably [IANA timezones](https://www.iana.org/time-zones)).
 
 
 <a name="interactive-control-and-sample-source-code"></a>
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DateTimePickerPlayground" target="_blank">DateTimePicker in the interactive controls playground</a>
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DateTimePicker_create_Playground" target="_blank">DateTimePicker in the interactive controls playground</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
@@ -68,6 +69,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 

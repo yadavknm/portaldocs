@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+A LineChart displays a series of data points connected by straight line segments.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,21 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use a line chart visualize a trend in data over time.
+
+The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
+* AreaChart
+* BarChart
+* Donut
+* LineChart
+* Map
+* Metrics
+* MonitorChart
+* QuotaGauge
+* ScatterChart
+* SingleMetric
+* SingleValueGauge
+
 
 
  
@@ -22,13 +38,12 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Limit the number of data sets to 5 or fewer
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Put too many data sets on the same chart
 
 
 
@@ -42,7 +57,7 @@
 ### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/LineChartPlayground" target="_blank">LineChart in the interactive controls playground</a>
+<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/LineChart_create_Playground" target="_blank">LineChart in the interactive controls playground</a>
 
 Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
 
@@ -50,6 +65,6 @@ Learn more about the controls playground [./top-extensions-controls-playground.m
 <a name="related-info"></a>
 ### Related info
 
-For overall Azure design guidance see http://aka.ms/portalfx/design
+* Azure design guidance:  http://aka.ms/portalfx/design
 
 
