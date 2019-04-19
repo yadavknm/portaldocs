@@ -47,13 +47,13 @@ Use multiple CheckBoxes for multi-select scenarios in which a user chooses one o
 
 
 
-<a name="interactive-control-and-sample-source-code"></a>
-### Interactive control and sample source code
+<a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
+#### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
 <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/CheckBox_create_Playground" target="_blank">CheckBox in the interactive controls playground</a>
 
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+Learn more about the [controls playground](./top-extensions-controls-playground.md)
 
  
 <a name="related-info"></a>

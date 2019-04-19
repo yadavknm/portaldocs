@@ -12,7 +12,7 @@
 
 {"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/DiffEditor.md", "section": "control#devtips"}
 
-### Interactive control and sample source code
+#### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
 The DiffEditor control offers different create methods and has the following entries in the interactive controls playground
@@ -25,7 +25,7 @@ The DiffEditor control offers different create methods and has the following ent
 
 <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DiffEditor_createTypeScriptEditor_Playground" target="_blank">DiffEditor (TypeScriptEditor)</a>
 
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+Learn more about the [controls playground](./top-extensions-controls-playground.md)
 
 
 {"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/DiffEditor.md", "section": "control#reldocs"}
