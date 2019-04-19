@@ -62,20 +62,35 @@ Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn
 </td>
 <td valign=top>
 
-### Resource menu contents
-<br>
+### Resource menu content
 
-**Top level**
-<br>Pages common to all resources
+**(Top level-no group label)**
+* Overview
+* Activity log
+* Access control (IAM)
+* Tags
+* Diagnose and solve problems
 
-**Settings**
-<br>A grouping of the menu that surfaces configuration settings on a resource
+**Settings - Configuration settings**
+* _any resource-specific items come at the top of the group_
+* Properties
+* Locks
+* Export template _(was "Automation script")_
 
-**Monitoring**
-<br>Services that give visibility into a resource
- 
-**Support + troubleshooting**
-<br>Tools to help users find and resolve issues with a resource
+**_any resource-specific groups and items_**
+
+**Monitoring - Services that give visibility into health and ops**
+ * Alerts
+ * Metrics
+ * Logs
+ * Diagnostic settings
+ * Advisor recommendations
+ * _any resource-specific items_
+
+**Support + troubleshooting - Tools to help users find and resolve issues**
+* Resource health
+* _any resource-specific items_
+* Create support request
 </td>
 </tr>
 </table>
