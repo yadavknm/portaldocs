@@ -57,13 +57,13 @@ By default, this control displays date according to the user's local [timezoneof
 Be aware that [timezoneoffset](http://tantek.com/2015/218/b1/use-timezone-offsets) !== timezone. If you need to use timezones (e.g., to ensure constant scheduling time), you should set showTimezoneDropdown to false, and use separate dropdown control populated with timezones used on your backend (which may vary, but preferably [IANA timezones](https://www.iana.org/time-zones)).
 
 
-<a name="interactive-control-and-sample-source-code"></a>
-### Interactive control and sample source code
+<a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
+#### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
 <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/DateTimePicker_create_Playground" target="_blank">DateTimePicker in the interactive controls playground</a>
 
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+Learn more about the [controls playground](./top-extensions-controls-playground.md)
 
  
 <a name="related-info"></a>

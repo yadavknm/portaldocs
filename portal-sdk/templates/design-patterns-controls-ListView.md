@@ -12,7 +12,7 @@
 
 {"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/ListView.md", "section": "control#devtips"}
 
-### Interactive control and sample source code
+#### Interactive control and sample source code
 To see the latest control, change options and get source code for your project, click here.
 
 The ListView control offers different create methods and has the following entries in the interactive controls playground
@@ -23,6 +23,6 @@ The ListView control offers different create methods and has the following entri
 
 <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/ListView_createCustomListView_Playground" target="_blank">ListView (CustomListView)</a>
 
-Learn more about the controls playground [./top-extensions-controls-playground.md](./top-extensions-controls-playground.md)
+Learn more about the [controls playground](./top-extensions-controls-playground.md)
 
 {"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/ListView.md", "section": "control#reldocs"}
