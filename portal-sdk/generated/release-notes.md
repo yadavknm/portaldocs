@@ -1,6 +1,6 @@
-# Release Notes since 12/19/2018
+# Release Notes since 12/20/2018
 
-## 5.0.302.18361
+## 5.0.302.18391
 0 Breaking Changes, 0 Features added and 0 Bugs Fixed
 <table>undefined</table>
 
