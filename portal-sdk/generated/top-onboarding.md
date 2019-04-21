@@ -172,6 +172,22 @@ When you are ready for all users to see your experience, you will enable your en
 
 Azure portal onboarding steps listed below assumes that all new services have completed the onboarding meeting with [ibiza-onboarding@microsoft.com](mailTo:ibiza-onboarding@microsoft.com) team and that you have downloaded the Azure portal SDK to start the development of your extension. If you have not had either the onboarding meeting or have developed the extension, please discuss with the Azure portal team on the requirements.
 
+## Pre-Onboarding Checks
+
+1) As a partner team, please take a moment time to understand the different branches we have in Azure portal. 
+
+2) Understand the deployment schedules and [SLAs](top-extensions-svc-lvl-agreements.md) for Portal framework and Hosting service repositories. 
+
+3) Portal team has a process of freezing deployments during special events like //build //Ignite //Inspire etc. Any changes to Production branch will NOT be honored during this freeze time. Please plan your Preview/Release of your service accordingly.
+
+4) Portal team does an automatic merge from Dogfood branch to Mpac and Mpac to Production during special events like conferences. During all other times, partners MUST always cherry-pick the changes from Dev branch to Production branch for the respective changes to go live.
+
+5) National cloud deployments take 2 weeks more than Production branch.
+
+6) Always work with Azure portal onboarding contact about your release dates before you commit timelines to release the product or any Marketing communications.
+
+7) All exceptions to bypass SLAs and fasttrack deployments will require Partner level approval on both sides. All exception during major events will require VP level approval. 
+
 Note : Step 1 and Step 2 below are sequential and required to complete the Portal onboarding. Step 3 is optional unless the onboarding service requires dedicated tokens. 
 
 <a name="steps-to-portal-onboarding-step-1-hosting-service"></a>
