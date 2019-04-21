@@ -277,7 +277,7 @@ public deleteRobot(robot: Robot): FxBase.PromiseV<any> {
         type: "DELETE",
     }).then(() => {
         // This will notify the shell that the robot is being removed.
-        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypes.Robot.name, robot.name());
+        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypeNames.robot, robot.name());
 
         // This will refresh the set of data that is displayed to the client by applying the change we made to
         // each data set in the cache.
@@ -312,7 +312,7 @@ public deleteComputer(computer: Computer): FxBase.PromiseV<any> {
         type: "DELETE",
     }).then(() => {
         // This will notify the shell that the computer is being removed.
-        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypes.Computer.name, computer.name());
+        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypeNames.computer, computer.name());
 
         // This will refresh the set of data that is displayed to the client by applying the change we made to
         // each data set in the cache.

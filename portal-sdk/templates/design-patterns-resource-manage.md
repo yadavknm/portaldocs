@@ -51,6 +51,8 @@ When a resource is opened in azure the resource menu is loaded and the Overview 
 ### Resource menu
 The resource menu offers a way to navigate to all pages related to the resource. The navigation includes pages that are common to all resources throughout the portal. Your resource will get those "for free," although some common pages require onboarding by the resource provider. You can have additional pages for your resource.  Refer to the table below to make sure each item is grouped properly. Learn more [Resource Menu](top-blades-resourcemenublade.md)
 
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3059%3A368196" target="_blank">ResourceMenu design in figma</a> 
+
 <table style="width:800px; border-style:none; cellpadding=10px">
 <tr>
 <td width="30%" align=center valign=top>
@@ -60,20 +62,35 @@ The resource menu offers a way to navigate to all pages related to the resource.
 </td>
 <td valign=top>
 
-### Resource menu contents
-<br>
+### Resource menu content
 
-**Top level**
-<br>Pages common to all resources
+**(Top level-no group label)**
+* Overview
+* Activity log
+* Access control (IAM)
+* Tags
+* Diagnose and solve problems
 
-**Settings**
-<br>A grouping of the menu that surfaces configuration settings on a resource
+**Settings - Configuration settings**
+* _any resource-specific items come at the top of the group_
+* Properties
+* Locks
+* Export template _(was "Automation script")_
 
-**Monitoring**
-<br>Services that give visibility into a resource
- 
-**Support + troubleshooting**
-<br>Tools to help users find and resolve issues with a resource
+**_any resource-specific groups and items_**
+
+**Monitoring - Services that give visibility into health and ops**
+ * Alerts
+ * Metrics
+ * Logs
+ * Diagnostic settings
+ * Advisor recommendations
+ * _any resource-specific items_
+
+**Support + troubleshooting - Tools to help users find and resolve issues**
+* Resource health
+* _any resource-specific items_
+* New support request
 </td>
 </tr>
 </table>
@@ -202,6 +219,8 @@ diagnose/troubleshooting and resource health menu items 
 
 
 ## Related documentation
+
+Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3059%3A368196" target="_blank">ResourceMenu design in figma</a> 
 
 * Resource Menu [top-blades-resourcemenublade.md](./top-blades-resourcemenublade.md)
 * Essentials [portalfx-controls-essentials.md](./portalfx-controls-essentials.md)
