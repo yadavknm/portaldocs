@@ -248,6 +248,8 @@ Note : Dogfood config does not require creating a CNAME entry for extensions as 
 
 7) [Hide all assets](portalfx-assets.md#how-to-hide-your-asset-in-different-environments) in your extension code before updating the framework config. By doing this, you can control when the assets can be shown and when you want to go live in Production. 
 
+8) Make sure all assets are hidden in portal.azure.com.json and ms.portal.azure.com.json within your extension's config folder and control showing assets only when required in the desired environments.
+
 Note : Extension name cannot be changed once onboarding is complete. It will require a new onboarding and redirecting to the new extension.
 
 ![storage container](./../media/portalfx-extensions-onboarding/framework-extension-redirect-config.png)
