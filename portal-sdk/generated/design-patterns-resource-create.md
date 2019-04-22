@@ -180,6 +180,7 @@ The post create page provides realtime deployment status, help with troubleshoot
 <a name="related-design-guidelines"></a>
 ## Related design guidelines
 
+-   Azure Design Template [Create a resource](https://www.figma.com/file/PASyBiBq72G54ckrtgs86uE7/Azure-Design-Templates?node-id=308%3A81443)
 -   Forms [design-patterns-page-forms.md](design-patterns-page-forms.md)
 -   Full screen [design-patterns-page-fullscreen.md](design-patterns-page-fullscreen.md)
 -   Browse Resources [design-patterns-resource-browse.md](design-patterns-resource-browse.md)
