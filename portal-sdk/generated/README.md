@@ -277,6 +277,8 @@ The Azure portal supports multiple languages and locales. You will need to local
 
 * [Testing localization with side-loading](/portal-sdk/generated/top-extensions-localization-globalization.md#testing-localization)
 
+* [Handling localization for links to documentation](/portal-sdk/generated/top-extensions-localization-globalization.md#handling-localization-for-links-to-documentation)
+
 * [Formatting numbers, currencies and dates](/portal-sdk/generated/top-extensions-localization-globalization.md#formatting-numbers-currencies-and-dates)
 
 [Ask about localization / globalization on StackOverflow](https://stackoverflow.microsoft.com/questions/tagged/ibiza-localization-global)

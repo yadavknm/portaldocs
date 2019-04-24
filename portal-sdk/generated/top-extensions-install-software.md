@@ -24,7 +24,7 @@ Install the following software. Your team should be aware of the most current do
 
   1. Visual Studio 2017 Professional or Enterpise version 15.7.3 or later that is located at [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/).  
 
-      1. TypeScript 3.3.1 for Visual Studio 2017 that is dated Jan 31, 2019. It is located at [https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-331-vs2017](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-331-vs2017)
+      1. TypeScript 3.2.2 for Visual Studio 2017 that is dated Dec 10, 2018. It is located at [https://www.microsoft.com/en-us/download/details.aspx?id=55258](https://www.microsoft.com/en-us/download/details.aspx?id=55258)
 
       1. Node tools that are located at [https://github.com/Microsoft/nodejstools/releases/tag/v1.3.1](https://github.com/Microsoft/nodejstools/releases/tag/v1.3.1)
 
