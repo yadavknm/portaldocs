@@ -1,8 +1,22 @@
-<a name="toolkits-for-designing-azure-experiences"></a>
-# Toolkits for designing Azure experiences
+<a name="templates-and-toolkits-for-designing-azure-experiences"></a>
+# Templates and Toolkits for designing Azure experiences
 
 
-<a name="toolkits-for-designing-azure-experiences-first-tier"></a>
+<a name="templates-and-toolkits-for-designing-azure-experiences-design-templates"></a>
+## Design Templates
+Design templates will jumpstart your design for common Azure scenarios by providing pages with pre-assembled toolkit building blocks.
+
+<a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" target="_blank">
+<img href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Figma toolkit">
+<br>Figma templates </a>
+<br>
+<br>
+
+<a name="templates-and-toolkits-for-designing-azure-experiences-design-toolkits"></a>
+## Design Toolkits
+Design toolkits contain building blocks to assemble pages in Azure
+
+<a name="templates-and-toolkits-for-designing-azure-experiences-first-tier"></a>
 ## First Tier
 Prioritized source of truth
 
@@ -10,9 +24,8 @@ Prioritized source of truth
 <img href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Figma toolkit">
 <br>Figma toolkit </a>
 <br>No download is necessary.
-<br>
 
-<a name="toolkits-for-designing-azure-experiences-second-tier"></a>
+<a name="templates-and-toolkits-for-designing-azure-experiences-second-tier"></a>
 ## Second-tier
 Committed to maintaining
 
@@ -35,7 +48,7 @@ Committed to maintaining
 </tr>
 </table>
 
-<a name="toolkits-for-designing-azure-experiences-third-tier"></a>
+<a name="templates-and-toolkits-for-designing-azure-experiences-third-tier"></a>
 ## Third-tier
 We will support if/as time allows
 <table>
@@ -55,7 +68,7 @@ We will support if/as time allows
 </tr>
 </table>
 
-<a name="toolkits-for-designing-azure-experiences-how-to-submit-new-controls-or-file-bugs"></a>
+<a name="templates-and-toolkits-for-designing-azure-experiences-how-to-submit-new-controls-or-file-bugs"></a>
 ## How to submit new controls or file bugs
 
 If you are interested in submitting new controls to include or have bugs to file, please [contact us](http://aka.ms/azureportaltoolkitsfeedback) with the control details. 
