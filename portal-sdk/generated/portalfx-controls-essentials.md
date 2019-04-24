@@ -288,12 +288,12 @@ public onInitialize(): Q.Promise<void> {
  */
 private _initializeControl(): void {
     const bladeLink: BladeLink = {
-        bladeReference: ko.observable(BladeReferences.forBlade("NoParameterChildBlade").createReference()),
+        bladeReference: BladeReferences.forBlade("NoParameterChildBlade").createReference(),
     };
     const resourceLink: ResourceLink = {
         resourceId: "/subscriptions/sub123/resourceGroups/accounts/providers/Microsoft.test/accounts/Peter",
     };
-    this.essentials =  Essentials.create(this.context.container, {
+    this.essentials =  Essentials.createDefaultResourceLayout(this.context.container, {
         resourceId: "/subscriptions/sub123/resourcegroups/servertest/providers/Microsoft.test/virtualservers/default1",
         includeTags: true,
         additionalRight: [{
@@ -447,7 +447,7 @@ public onInitialize(): Q.Promise<void> {
  */
 private _initializeControl(): void {
     let clickCounter = 0;
-    this.essentials =  Essentials.create(this.context.container, {
+    this.essentials =  Essentials.createCustomResourceLayout(this.context.container, {
         resourceId: "/subscriptions/sub123/resourcegroups/servertest/providers/Microsoft.test/virtualservers/default1",
         left: [
             Essentials.BuiltInType.Status,
@@ -600,7 +600,7 @@ public onInitialize(): Q.Promise<void> {
  */
 private _initializeControl(): void {
     let clickCounter = 0;
-    this.essentials = Essentials.create(this.context.container, {
+    this.essentials = Essentials.createNonResourceLayout(this.context.container, {
         left: [
             {
                 label: ClientResources.essentialsItem,
@@ -742,68 +742,3 @@ const items: ((Essentials.Item | Essentials.MultiLineItem)[]) = results.map((dat
 ```
 
 As the above code shows, the sample AJAX response contains 4 properties. First 2 items are added to left pane and last 2 items are added to right pane.
-
-<a name="responsiveEssentials"></a>
-<a name="essentials-control-features-responsive-columns"></a>
-#### Responsive Columns
-
-`\Client\V2\Controls\Essentials\EssentialsResponsiveBlade.ts`
-
-```typescript
-
-this.essentials =  Essentials.create(this.context.container, {
-    responsiveColumns: true,
-    resourceId: "/subscriptions/sub123/resourcegroups/servertest/providers/Microsoft.test/virtualservers/default1",
-    additionalRight: [{
-        label: ClientResources.essentialsItem,
-        value: ClientResources.essentialsSampleString,
-    }, {
-        label: ClientResources.essentialsItem,
-        value: "Bing.com",
-        onClick: new ClickableLink(ko.observable("http://www.bing.com")),
-        icon: {
-            image: MsPortalFx.Base.Images.SmileyHappy(),
-            position: Essentials.IconPosition.Right,
-        },
-    }, {
-        label: ClientResources.essentialsMultiLineItem,
-        lines: [{
-            value: ClientResources.essentialsSampleString,
-        }, {
-            value: "Bing.com",
-            onClick: new ClickableLink(ko.observable("http://www.bing.com")),
-            icon: {
-                image: MsPortalFx.Base.Images.SmileyHappy(),
-                position: Essentials.IconPosition.Left,
-            },
-        }],
-    }],
-    onBladeOpen: (origin: Essentials.BuiltInType) => {
-        switch (origin) {
-            case Essentials.BuiltInType.ResourceGroup:
-                this.essentials.modifyStatus(ClientResources.essentialsResourceGroupOpened);
-                break;
-            case Essentials.BuiltInType.SubscriptionName:
-                this.essentials.modifyStatus(ClientResources.essentialsSubscriptionOpened);
-                break;
-        }
-    },
-    onBladeClose: (origin: Essentials.BuiltInType) => {
-        switch (origin) {
-            case Essentials.BuiltInType.ResourceGroup:
-                this.essentials.modifyStatus(ClientResources.essentialsResourceGroupClosed);
-                break;
-            case Essentials.BuiltInType.SubscriptionName:
-                this.essentials.modifyStatus(ClientResources.essentialsSubscriptionClosed);
-                break;
-        }
-    },
-});
-
-```
-
-The optional `boolean` property `responsiveColumns` can be specified to `true` to use responsive columns feature.
-
-`Small` sized blade will contain single column and full screen will contain multiple number of columns depends on the blade's width.
-
-[essentials-sample]: ../media/portalfx-controls/essentials.png
