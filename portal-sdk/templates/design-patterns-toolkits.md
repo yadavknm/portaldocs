@@ -1,5 +1,17 @@
-# Toolkits for designing Azure experiences
+# Templates and Toolkits for designing Azure experiences
 
+
+## Design Templates
+Design templates will jumpstart your design for common Azure scenarios by providing pages with pre-assembled toolkit building blocks.
+
+<a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" target="_blank">
+<img href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Figma toolkit">
+<br>Figma templates </a>
+<br>
+<br>
+
+## Design Toolkits
+Design toolkits contain building blocks to assemble pages in Azure
 
 ## First Tier
 Prioritized source of truth
@@ -8,7 +20,6 @@ Prioritized source of truth
 <img href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Figma toolkit">
 <br>Figma toolkit </a>
 <br>No download is necessary.
-<br>
 
 ## Second-tier
 Committed to maintaining
