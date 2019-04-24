@@ -32,12 +32,12 @@ The page patterns provide guidance for common page layouts in Azure.
 
 * [Filtering](design-patterns-page-filtering.md)
 
-* Quick Tips on page design 
+* Quick tips on page design 
     * Pages should be full screen so that we avoid partial pages and avoid horizontal scrolling
     * Content on a page should be constrained to a maximum width of 700px
     * Each page that is displaying data should have a **Refresh** command
 
-## Design templates. toolkits and resources
+## Design templates, toolkits and resources
 Design templates, toolkits and resources are available so that you can easily create designs that leverage these patterns.
 
 * [Design templates and toolkits](design-patterns-toolkits.md)
