@@ -18,7 +18,7 @@ First 5 items in left pane of the essentials are obtained by calling Azure Resou
  
 <a name="when-to-use"></a>
 ### When to use
-The Essentials control should be used on all overview pages in [resource management](http://aka.ms/portalfx/designpatterns/resourcemanage) experiences in Azure.
+The Essentials control should be used on all overview pages in [resource management]((http://aka.ms/portalfx/design)patterns/resourcemanage) experiences in Azure.
 
 
  
@@ -49,27 +49,27 @@ The Essentials control should be used on all overview pages in [resource managem
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
 #### Interactive control and sample source code
-To see the latest control, change options and get source code for your project, click here.
+To see the latest control, change options and get source code for your project use the interactive playground site.  [Learn more](./top-extensions-controls-playground.md).
 
 The Essentials control offers different create methods and has the following entries in the interactive controls playground
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Essentials_createDefaultResourceLayout_Playground" target="_blank">Essentials (DefaultResourceLayout)</a>
+*  <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Essentials_createDefaultResourceLayout_Playground" target="_blank">Essentials (DefaultResourceLayout)</a>
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Essentials_createCustomResourceLayout_Playground" target="_blank">Essentials (CustomResourceLayout)</a>
+*  <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Essentials_createCustomResourceLayout_Playground" target="_blank">Essentials (CustomResourceLayout)</a>
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Essentials_createNonResourceLayout_Playground" target="_blank">Essentials (NonResourceLayout)</a>
+*  <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Essentials_createNonResourceLayout_Playground" target="_blank">Essentials (NonResourceLayout)</a>
 
-Learn more about the [controls playground](./top-extensions-controls-playground.md)
+ 
 
 
  
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7668" target="_blank">Essentials design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7668" target="_blank">Essentials in Azure Portal Toolkit</a>
 
-* Manage a resource design pattern: [Manage a resource](http://aka.ms/portalfx/designpatterns/resourcemanage)
+* Manage a resource design pattern: [Manage a resource]((http://aka.ms/portalfx/design)patterns/resourcemanage)
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 
