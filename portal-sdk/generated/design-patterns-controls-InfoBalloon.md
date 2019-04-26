@@ -57,6 +57,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3342%3A153" target="_blank">InfoBalloon in Azure Portal Toolkit</a>
 * [Azure design guidance](http://aka.ms/portalfx/design)
 
 

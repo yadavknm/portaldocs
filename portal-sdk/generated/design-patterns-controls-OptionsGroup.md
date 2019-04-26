@@ -12,6 +12,12 @@
  
 <a name="when-to-use"></a>
 ### When to use
+To select **single option** among existing values.  Choose the control best suited to your needs
+* CheckBox - a choice between 2 mutually exclusive options.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* DropDown - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
+* RadioButtons - a single choice between 2-7 equally weighted options where the option names are long.   
+* OptionsGroup - a single choice between 2-7 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  For  On/Off, Yes/No you can also consider a CheckBox.
+
 
 
  
@@ -21,13 +27,20 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use when there are 2-5 options and the option names are short
+* Use when there are 2-7 options, if you have enough screen space and the options are important enough to be a good use of that screen space. Otherwise, use a CheckBox or DropDown.
+* Use on forms and wizard pages to make the alternatives clear, even if a CheckBox is otherwise acceptable.
+* List the options in a logical order, such as most likely to be selected to least, simplest operation to most complex, or least risk to most. Alphabetical ordering is not recommended because it is language dependent and therefore not localizable.
+* If none of the options is a valid choice, add another option to reflect this choice, such as "None" or "Does not apply".
+* Select the safest (to prevent loss of data or system access) and most secure and private option as the default. If safety and security aren't factors, select the most likely or convenient option.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
+* Use when the options are numbers that have fixed steps, like 10, 20, 30. Use a Slider component instead.
+* Use if there are more than 7 options, use a DropDown instead.
+* Nest with other RadioButtons, OptionsGroups or CheckBoxes. If possible, keep all the options at the same level.
+* Don't use when the option names are long, use RadioButtons instead.
 
-* bullet one
 
 
 

@@ -16,11 +16,16 @@ A CheckBox is a UI element that allows users to switch between two mutually excl
 ### When to use
 A CheckBox is used to select or deselect action items. It can be used for a single item or for a list of multiple items that a user can choose from. The control has two selection states: unselected and selected.
 
+Use multiple CheckBoxes for multi-select scenarios in which a user chooses one or more items from a group of choices that are not mutually exclusive.  A DropDown may also be considered for multi-select.
+
 Use a single CheckBox for a subordinate setting, such as with a "Remember me?" login scenario or with a terms of service agreement.
 
-For a binary choice, the main difference between a CheckBox and a toggle switch is that the CheckBox is for status and the toggle switch is for action. You can delay committing a CheckBox interaction (as part of a form submit, for example), while you should immediately commit a toggle switch interaction. Also, only CheckBoxes allow for multi-selection.
+To select **single option** among existing values.  Choose the control best suited to your needs
+* CheckBox - a choice between 2 mutually exclusive options.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* DropDown - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
+* RadioButtons - a single choice between 2-7 equally weighted options where the option names are long.   
+* OptionsGroup - a single choice between 2-7 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  For  On/Off, Yes/No you can also consider a CheckBox.
 
-Use multiple CheckBoxes for multi-select scenarios in which a user chooses one or more items from a group of choices that are not mutually exclusive.
 
 
  
