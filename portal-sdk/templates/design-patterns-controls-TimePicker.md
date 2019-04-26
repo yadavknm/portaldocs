@@ -13,11 +13,11 @@
 {"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/TimePicker.md", "section": "control#devtips"}
 
 #### Interactive control and sample source code
-To see the latest control, change options and get source code for your project, click here.
+To see the latest control, change options and get source code for your project use the interactive playground site.  [Learn more](./top-extensions-controls-playground.md).
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/TimePicker_create_Playground" target="_blank">TimePicker in the interactive controls playground</a>
+*  <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/TimePicker_create_Playground" target="_blank">TimePicker in the interactive controls playground</a>
 
-Learn more about the [controls playground](./top-extensions-controls-playground.md)
+ 
 
 
 {"gitdown": "include-section", "file": "../Samples/PlaygroundExtension/Client/Controls/Guidance/TimePicker.md", "section": "control#reldocs"}

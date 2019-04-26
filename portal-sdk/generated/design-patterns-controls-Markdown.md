@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Markdown control enables you to display content that is formatted using the markdown language.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the Markdown control when you have markdown content that you want to display. 
 
 
  
@@ -22,13 +24,12 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use the Markdown control to display markdown formatted content.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't limit the size of the control - you may need room for the formatted content.
 
 
 
@@ -40,17 +41,17 @@
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
 #### Interactive control and sample source code
-To see the latest control, change options and get source code for your project, click here.
+To see the latest control, change options and get source code for your project use the interactive playground site.  [Learn more](./top-extensions-controls-playground.md).
 
-<a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Markdown_create_Playground" target="_blank">Markdown in the interactive controls playground</a>
+*  <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/Markdown_create_Playground" target="_blank">Markdown in the interactive controls playground</a>
 
-Learn more about the [controls playground](./top-extensions-controls-playground.md)
+ 
 
 
  
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 
