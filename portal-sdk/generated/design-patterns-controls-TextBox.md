@@ -14,7 +14,14 @@ The TextBox component enables a user to type text into an app. It's typically us
  
 <a name="when-to-use"></a>
 ### When to use
-Use the TextBox to enable the user to enter text.
+Displaying and gathering text is available via multiple controls, choose the one most suited to your needs
+* CopyableLabel - multi-line text input with built-in support for infoBalloonContent and an easy way for user to copy value.
+* MultilineTextBox - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+* NumericTextBox - restricts input to numbers only and built-in support for validations, infoBalloonContent and placeHolderText
+* PasswordBox - text input that uses a * character instead of echoing user input with built-in support for validations, infoBalloonContent and placeHolderText.  Use PasswordBox for security sensitive fields.
+* TextBlock - Readonly control used to display text.
+* TextBox - single-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+
 
 
  
@@ -24,27 +31,20 @@ Use the TextBox to enable the user to enter text.
 <a name="best-practices-do"></a>
 #### Do
 
+* Set the **infoBalloonContent** to concise, helpful text with a link to learn
+* Use **placeHolderText** for examples of field values
+* Use the **validations** option to help the user input the correct text if a specific format is required
 * Use the TextBox to accept data input on a form or page.
-* Label the TextBox with a helpful name.
-* Provide concise helper text that specifies what content is expected to be entered.
-* Provide all appropriate states for the control (static, hover, focus, engaged, unavailable, error).
+* Use the **label** option to provide a helpful name for the control.
 * When part of a form, provide clear designations for which fields are required vs. optional.
-* Provide all appropriate methods for submitting provided data (e.g. dedicated ‘Submit’ button).
-* Provide all appropriate methods of clearing provided data (‘X’ or something similar).
-* Allow for selection, copy and paste of field data.
 * Whenever possible, format TextBox relative to the expected entry (4-digit PIN, 10-digit phone number (3 separate fields), etc).
 * When long entries are expected, provide a mechanism for overflow or expansion of the control itself.
-* Ensure that the TextBox is functional through use of mouse/keyboard or touch when available.
-* Ensure that the TextBox is accessible through screen reader and/or other accessibility tools.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* Don’t use a TextBox to render basic copy as part of a body element of a page.
+* Don’t use a TextBox to render basic copy as part of a body element of a page, put the text on the page or consider the TextBlock instead
 * Don’t provide an unlabeled TextBox and expect that users will know what to do with it.
-* Don’t place a TextBox inline with body copy.
-* Don’t be overly verbose with helper text.
-* Don’t occlude the entry or allow entry when the active content is not visible.
 
 
  
