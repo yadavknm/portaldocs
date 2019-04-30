@@ -20,11 +20,11 @@ Use multiple CheckBoxes for multi-select scenarios in which a user chooses one o
 
 Use a single CheckBox for a subordinate setting, such as with a "Remember me?" login scenario or with a terms of service agreement.
 
-To select **single option** among existing values.  Choose the control best suited to your needs
-* CheckBox - a choice between 2 mutually exclusive options.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
-* DropDown - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
-* RadioButtons - a single choice between 2-7 equally weighted options where the option names are long.   
-* OptionsGroup - a single choice between 2-7 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  For  On/Off, Yes/No you can also consider a CheckBox.
+To select a **single option** among existing values.  Choose the control best suited to your needs
+* **CheckBox** - a choice between 2 mutually exclusive options.  For example, use a single CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* **DropDown** - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
+* **OptionsGroup** - a single choice between 2-7 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  For  On/Off, Yes/No you can also consider a CheckBox.
+* **RadioButtons** - a single choice between 2-7 equally weighted options where the option names are long.   
 
 
 

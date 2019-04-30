@@ -3,7 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
-SingleValueGauge shows the status of a current value against an optional total.  
+SingleValueGauge shows the status of a current value relative to an optional total.  
 
 
 
@@ -17,18 +17,17 @@ SingleValueGauge shows the status of a current value against an optional total.
 Use the SingleValueGauge to show a current value in relation to a total.  For example, the user may want to understand how much money they have spent in relation to their typical monthly spend (total).
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
-* AreaChart
-* BarChart
-* Donut
-* LineChart
-* Map
-* Metrics
-* MonitorChart
-* QuotaGauge
-* ScatterChart
-* SingleMetric
-* SingleValueGauge
-
+* **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
+* **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
+* **Donut** - displays proportional data as part of a whole.
+* **LineChart** - displays a series of data points connected by straight line segments.
+* **Map** - displays data with longitude and latitude coordinates on a world map.
+* **Metrics** - displays a single value for a set of metrics
+* **MonitorChart** - displays the metrics for your resource and inherently knows how to fetch data for your resource.
+* **QuotaGauge** - displays the current value relative to a quota (limit) and total.
+* **ScatterChart** - displays a plot of data points without any connecting lines
+* **SingleMetric** - displays a single value for a metric
+* **SingleValueGauge** - displays the status of a current value relative to an optional total.  
 
 
 
