@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The FileUpload
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -18,17 +19,15 @@
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 

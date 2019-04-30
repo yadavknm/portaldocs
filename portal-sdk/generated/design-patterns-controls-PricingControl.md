@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The PricingControl enbles a 
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,26 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the PricingControl so the user can understand the currently selected pricing option and navigate to a separate experience to compare and select among a set pricing options.
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use the PricingControl when your pricing selection is moderately complex and the user needs to compare multiple facets of pricing to make a good selection.
+* Set the **infoBalloonContent** to concise, helpful text with a link to learn
+* Use the **label** option to provide a helpful name for the control.
+* Use the **validations** option to help the user input the correct text if a specific format is required
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use the PricingControl if the pricing selection is a simple choice among a few options.  Consider DropDown, RadioButtons or OptionsGroup for simple pricing choices.
 
 
 

@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The TagsByResource control provides an easy way to assign tags to resources.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,22 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the TagsByResource control when assigning tags to resources
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use the TagsByResource control in the tags tab when creating a resources
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't build your own Tags experience - use this control
 
 
 
@@ -50,6 +50,8 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8180%3A347940" target="_blank">TagsByResource in Azure Portal Toolkit</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The ListView
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -18,17 +19,15 @@
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -55,6 +54,8 @@ The ListView control offers different create methods and has the following entri
  
 <a name="related-info"></a>
 ### Related info
+
+<!-- TODO need link to Figma -->
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

@@ -78,6 +78,8 @@ The DiffEditor control offers different create methods and has the following ent
 <a name="related-info"></a>
 ### Related info
 
+<!-- TODO need link to Figma -->
+
 * [Azure design guidance](http://aka.ms/portalfx/design)
 
 

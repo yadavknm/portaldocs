@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Summary control displays a set of categories and items in a common way
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,24 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the Summary control to dsiplay a set of categories and items.
+
+Use the Summary control on the Review + create tab of the resource creation experience to display the tabs and assigned values
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use the Summary control to display the tabs and properties in the Review + create tab of the resource creation experience
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -50,6 +52,9 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8180%3A347946" target="_blank">Summary in Azure Portal Toolkit</a>
+
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

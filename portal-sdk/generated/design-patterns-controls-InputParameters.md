@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The InputParameters
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -22,13 +23,12 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -49,6 +49,8 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+<!-- TODO need link to Figma -->
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

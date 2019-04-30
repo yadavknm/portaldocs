@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Legend control displays a list of items and associated colors to be used as a legend for a chart, graph, etc
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,22 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the Legend control displays to display a legend for a chart, graph, etc
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 

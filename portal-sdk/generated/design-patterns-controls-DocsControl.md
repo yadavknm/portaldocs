@@ -23,13 +23,12 @@ Use the DocsControl to display your docs directly in the portal
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -51,6 +50,8 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+<!-- TODO need link to Figma -->
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 
