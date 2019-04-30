@@ -260,10 +260,10 @@ describe("Resource Overview Blade Tests", () => {
                             "name": "bar",
                             "type": "Providers.Test/statefulIbizaEngines",
                             "location": "East Asia",
-                            "properties": {}
-                        }
-                    }
-                ]
+                            "properties": {},
+                        },
+                    },
+                ],
             }));
         } else {
             request.respond(404, null, "not mocked");
@@ -273,7 +273,7 @@ describe("Resource Overview Blade Tests", () => {
     const bladeParameters : Parameters = { id: resourceId };
     // options for the blade under test. optional callbacks beforeOnInitializeCalled, afterOnInitializeCalled and afterRevealContentCalled
     // can be supplied to execute custom test code
- 
+
     // get blade instance with context initialized and onInitialized called
     return TemplateBladeHarness.initializeBlade(ResourceOverviewBlade, {
       parameters: bladeParameters,
@@ -288,7 +288,7 @@ describe("Resource Overview Blade Tests", () => {
         console.log("after reveal called");
       },
     }).then((resourceBlade) => {
-      
+
       assert.equal(resourceBlade.title(), "bar");
       assert.equal(resourceBlade.subtitle, ClientResources.resourceOverviewBladeSubtitle);
     });
@@ -316,6 +316,7 @@ describe("Resource Overview Blade Tests", () => {
         "outDir": "./Output",
         "rootDir": ".",
         "sourceMap": false,
+        "strictBindCallApply": true,
         "target": "es5",
         "paths": {
             "msportalfx-ut/*": [

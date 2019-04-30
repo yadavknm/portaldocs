@@ -102,7 +102,7 @@ Remember, your part and blade should both have a single `id` input parameter, wh
 
 If your asset type is in preview, set the `IsPreview="true"` property. If the asset type is GA, simply remove the property (the default is `false`).
 
-##### How to hide your asset in different environments
+#### How to hide your asset in different environments
 
 You can hide your asset in different environments by setting the hideassettypes feature flag in your config to a comma-separated list of asset type names.
 
@@ -111,7 +111,7 @@ You can hide your asset in different environments by setting the hideassettypes 
   <img src="../media/portalfx-assets/hidingassettypes.png" />
 </a>
 
-###### Self hosted
+##### Self hosted
 
 Replace '*' with the desired environment, for documentation regarding enabling feature flags in self hosted extensions [click here.](portalfx-extension-flags.md#feature-flags)
 
@@ -123,19 +123,17 @@ Replace '*' with the desired environment, for documentation regarding enabling f
         }" />
 ```
 
-###### Hosting service
+##### Hosting service
 
 If you’re using the hosting service, you can do this by updating your domainname.json (e.g. portal.azure.cn.json file)
 
 ```json
-    {
-      "features": {
-        "hideassettypes": "YOUR_ASSET_NAME, YOUR_OTHER_ASSET_NAME"
-      }
-    }
+{
+  "hideassettypes": "YOUR_ASSET_NAME, YOUR_OTHER_ASSET_NAME"
+}
 ```
 
-####### Testing your hidden asset
+##### Testing your hidden asset
 
 To test enable your hidden asset for testing purposes, you will need to update the hide asset feature flag to exclude the asset you want to show and ensure you have feature.canmodifyextensions set.
 
@@ -144,12 +142,12 @@ For the desired environment append the following feature flags.
 
 ```txt
     ?feature.showassettypes=MyNewAsset
-    &microsoft_azure_mynewextension=true
-    &feature.canmodifyextensions=true
 ```
 
 For example:
 https://rc.portal.azure.com/?feature.showassettypes=VirtualMachine&microsoft_azure_compute=true&feature.canmodifyextensions=true
+
+or testing the hiding of an asset can be acheived with https:///rc.portal.azure.com/?microsoft_azure_support_hideassettypes=HelpAndSupport
 
 #### Handling ARM kinds
 

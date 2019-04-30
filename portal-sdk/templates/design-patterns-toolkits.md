@@ -1,70 +1,62 @@
-# Toolkits for designing Azure experiences
+# Templates and Toolkits for designing Azure experiences
 
 
-<table style="border-style:none; cellpadding:10px">
+## Design Templates
+Design templates will jumpstart your design for common Azure scenarios by providing pages with pre-assembled toolkit building blocks.
+
+<a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" target="_blank">
+<img href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Figma toolkit">
+<br>Figma templates </a>
+<br>
+<br>
+
+## Design Toolkits
+Design toolkits contain building blocks to assemble pages in Azure
+
+## First Tier
+Prioritized source of truth
+
+<a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" target="_blank">
+<img href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3002%3A373291" src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Figma toolkit">
+<br>Figma toolkit </a>
+<br>No download is necessary.
+
+## Second-tier
+Committed to maintaining
+
+<table>
 <tr>
-<!-- Figma does not have a link -->
-<td  width="20%" height="200px">
-<img src="../media/design-patterns-toolkits/figma.png" style="border-style:solid; border-width:2px; border-color:gray" alt="Figma toolkit">
-</td>
-
-<td  width="20%" height="200px">
+<td valign="top" width="300">
 <a href="https://microsoft.sharepoint.com/:u:/t/UNI_CE/EeQ7d6ScPtxOn11y9u0uWDMBnxj0aAboy2KnvqBJOnB_VA?e=3WzClt" target="_blank">
-<img src="../media/design-patterns-toolkits/sketch.png" style="border-style:solid; border-width:2px; border-color:gray" alt="Sketch toolkit">
-</a>
+<img src="../media/design-patterns-toolkits/sketch.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Sketch toolkit">
+<br>Sketch toolkit </a>
+<br>Available from UNI/
+<br>Load as a Sketch Library. 
+<br>Do not open the Sketch version of the toolkit as a file.
 </td>
-
-<td  width="20%" height="200px">
+<td valign="top">
 <a href="https://microsoft.sharepoint.com/:f:/t/UNI_CE/EuZaLU4h1I5Fn3L9uL6YRcMBWA4H6ZRXQWbmzUv60KXJWQ?e=gsPway" target="_blank">
-<img src="../media/design-patterns-toolkits/xd.png" style="border-style:solid; border-width:2px; border-color:gray" alt="XD toolkit">
-</a>
+<img src="../media/design-patterns-toolkits/xd.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="XD toolkit">
+<br>Adobe XD toolkit </a>
+<br>Available from UNI/
 </td>
-
-<td  width="20%" height="200px">
-<a href="https://microsoft.sharepoint.com/:u:/t/UNI_CE/ET_B7JO5tJpCnBrXXaLID9AB9ltbHqj_v6eWkq147cvm_Q?e=zEB7t8" target="_blank">
-<img src="../media/design-patterns-toolkits/illustrator.png" style="border-style:solid; border-width:2px; border-color:gray" alt="Illustator toolkit">
-</a>
-</td>
-
-<td  width="20%" height="200px">
-<a href="https://microsoft.sharepoint.com/:f:/t/UNI_CE/EjEXdW54jiBOuWunOWsYLTsBeIZIDPTfPD6fFiMMaYUKDA?e=YSEE8w" target="_blank">
-<img src="../media/design-patterns-toolkits/powerpoint.png" style="border-style:solid; border-width:2px; border-color:gray" alt="PowerPoint toolkit">
-</a>
-</td>
-
 </tr>
+</table>
 
+## Third-tier
+We will support if/as time allows
+<table>
 <tr>
-<td valign="top">
-<b>Figma</b>
-<br>No download is necessary.
-<br>Available as a Figma library within the Microsoft Azure Figma workgroup. Email If you want access to the Figma toolkit, just send a quick email requesting access to:
-CDS_Figma_Admins@microsoft.com to request access.
-<br>No download is necessary.
-</td>
-<td valign="top">
-<b>Sketch</b>
-<br>
-<a href="https://microsoft.sharepoint.com/:u:/t/UNI_CE/EeQ7d6ScPtxOn11y9u0uWDMBnxj0aAboy2KnvqBJOnB_VA?e=3WzClt" target="_blank">Open toolkit </a>
-<br>Available from UNI/
-<br>Load as a Sketch Library. Do not open the Sketch version of the toolkit as a file.
-</td>
-<td valign="top">
-<b>Adobe XD</b>
-<br>
-<a href="https://microsoft.sharepoint.com/:f:/t/UNI_CE/EuZaLU4h1I5Fn3L9uL6YRcMBWA4H6ZRXQWbmzUv60KXJWQ?e=gsPway" target="_blank">Open toolkit </a>
+<td valign="top" width="300">
+<a href="https://microsoft.sharepoint.com/:f:/t/UNI_CE/EjEXdW54jiBOuWunOWsYLTsBeIZIDPTfPD6fFiMMaYUKDA?e=YSEE8w" target="_blank">
+<img src="../media/design-patterns-toolkits/powerpoint.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="PowerPoint toolkit">
+<br>PowerPoint toolkit </a>
 <br>Available from UNI/
 </td>
 <td valign="top">
-<b>Adobe Illustrator</b>
-<br>
-<a href="https://microsoft.sharepoint.com/:u:/t/UNI_CE/ET_B7JO5tJpCnBrXXaLID9AB9ltbHqj_v6eWkq147cvm_Q?e=zEB7t8" target="_blank">Open toolkit </a>
-<br>Available from UNI/
-</td>
-<td valign="top">
-<b>PowerPoint</b>
-<br>
-<a href="https://microsoft.sharepoint.com/:f:/t/UNI_CE/EjEXdW54jiBOuWunOWsYLTsBeIZIDPTfPD6fFiMMaYUKDA?e=YSEE8w" target="_blank">Open toolkit </a>
+<a href="https://microsoft.sharepoint.com/:u:/t/UNI_CE/ET_B7JO5tJpCnBrXXaLID9AB9ltbHqj_v6eWkq147cvm_Q?e=zEB7t8" target="_blank">
+<img src="../media/design-patterns-toolkits/illustrator.png" style="border-style:solid; border-width:2px; border-color:gray" width="100" alt="Illustator toolkit">
+<br>Adobe Illustrator toolkit </a>
 <br>Available from UNI/
 </td>
 </tr>

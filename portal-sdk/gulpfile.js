@@ -39,6 +39,7 @@ gulp.task('portal', function () {
     gulpCommon.createSymlink("portal-sdk/samples/SamplesExtension", "../src/SDK/AcceptanceTests/Extensions/SamplesExtension");
     gulpCommon.createSymlink("portal-sdk/samples/SampleAzExtension", "../src/SDK/AcceptanceTests/Extensions/SampleAzExtension");
     gulpCommon.createSymlink("portal-sdk/samples/InternalSamplesExtension", "../src/SDK/AcceptanceTests/Extensions/InternalSamplesExtension");
+    gulpCommon.createSymlink("portal-sdk/samples/PlaygroundExtension", "../src/SDK/Extensions/PlaygroundExtension");
     gulpCommon.createSymlink("portal-sdk/samples/VS", "../src/SDK/devkit/VS");
 
     if (!fs.existsSync(generatedDir)) {
