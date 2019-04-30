@@ -181,6 +181,7 @@ var self = module.exports = {
             ".pdl": { regEx: xmlCommentRegEx, template: xmlSnippetTemplate },
             ".csproj": { regEx: xmlCommentRegEx, template: xmlSnippetTemplate },
             ".html": { regEx: xmlCommentRegEx, template: xmlSnippetTemplate },
+            ".md": { regEx: xmlCommentRegEx, template: "" },
             ".cs": { regEx: codeCommentRegEx, template: "```csharp\n%s\n```" },
             ".ts": { regEx: codeCommentRegEx, template: "```typescript\n%s\n```" },
             ".tsx": { regEx: codeCommentRegEx, template: "```typescript\n%s\n```" },
@@ -339,7 +340,8 @@ var self = module.exports = {
             return links.reduce((prev, curr) => {
                 return prev.then(() => {
                     return fetch(curr, {
-                        method: "HEAD"
+                        method: "HEAD",
+                        timeout: 10*1000 // 10 second timeout
                     }).then((response) => {
                         if (!response.ok) {
                             if (response.status === 401 /* Unauthorized */ ||
@@ -350,7 +352,8 @@ var self = module.exports = {
                                 response.status === 503 /* Service Unavailable */) {
                                 // Retry possibly unsupported HEAD requests
                                 return fetch(curr, {
-                                    method: "GET"
+                                    method: "GET",
+                                    timeout: 10*1000 // 10 second timeout
                                 }).then((response) => {
                                     if (!response.ok) {
                                         throw new Error(response.statusText);

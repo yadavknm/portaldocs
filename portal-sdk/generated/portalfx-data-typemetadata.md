@@ -139,7 +139,16 @@ At the top of any C# file using the `TypeMetadataModel` annotation, the followin
 
 - Open the client project (not your datamodels project) i.e Extension.csproj,  Add the following to `Extension.csproj`
 
-code sample coming soon to SamplesExtension in D:\ws\Ship-Sync-AuxDocs-Github\doc\portal-sdk\Samples\SamplesExtension\Extension\SamplesExtension.csproj
+```xml
+
+<PropertyGroup>
+  <PortalEmitTypeMetadataTypeScript>true</PortalEmitTypeMetadataTypeScript>
+  <PortalEmitTypeMetadataTypeScriptTargetFolder>Client\_generated</PortalEmitTypeMetadataTypeScriptTargetFolder>
+  <BladeReferencesCodegenMode>Definitions</BladeReferencesCodegenMode>
+  <PartReferencesCodegenMode>Definitions</PartReferencesCodegenMode>
+</PropertyGroup>
+
+```
 
 *Note*: `PortalEmitTypeMetadataTypeScriptTargetFolder` can be used to control the output path of the generated type metadata.
 

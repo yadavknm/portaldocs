@@ -117,7 +117,7 @@ Here we define our custom dialog `ViewModel`, which only contains a slider contr
 
 const { container } = this.context;
 const dialogViewModel = {
-    slider: Slider.create(container, {
+    slider: Slider.createSimpleSlider(container, {
         label: ClientResources.slider,
         max: 10,
         min: 0,

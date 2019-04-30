@@ -1437,7 +1437,7 @@ public deleteRobot(robot: Robot): FxBase.PromiseV<any> {
         type: "DELETE",
     }).then(() => {
         // This will notify the shell that the robot is being removed.
-        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypes.Robot.name, robot.name());
+        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypeNames.robot, robot.name());
 
         // This will refresh the set of data that is displayed to the client by applying the change we made to
         // each data set in the cache.
@@ -1472,7 +1472,7 @@ public deleteComputer(computer: Computer): FxBase.PromiseV<any> {
         type: "DELETE",
     }).then(() => {
         // This will notify the shell that the computer is being removed.
-        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypes.Computer.name, computer.name());
+        MsPortalFx.UI.AssetManager.notifyAssetDeleted(ExtensionDefinition.AssetTypeNames.computer, computer.name());
 
         // This will refresh the set of data that is displayed to the client by applying the change we made to
         // each data set in the cache.
@@ -1873,7 +1873,16 @@ At the top of any C# file using the `TypeMetadataModel` annotation, the followin
 
 - Open the client project (not your datamodels project) i.e Extension.csproj,  Add the following to `Extension.csproj`
 
-code sample coming soon to SamplesExtension in D:\ws\Ship-Sync-AuxDocs-Github\doc\portal-sdk\Samples\SamplesExtension\Extension\SamplesExtension.csproj
+```xml
+
+<PropertyGroup>
+  <PortalEmitTypeMetadataTypeScript>true</PortalEmitTypeMetadataTypeScript>
+  <PortalEmitTypeMetadataTypeScriptTargetFolder>Client\_generated</PortalEmitTypeMetadataTypeScriptTargetFolder>
+  <BladeReferencesCodegenMode>Definitions</BladeReferencesCodegenMode>
+  <PartReferencesCodegenMode>Definitions</PartReferencesCodegenMode>
+</PropertyGroup>
+
+```
 
 *Note*: `PortalEmitTypeMetadataTypeScriptTargetFolder` can be used to control the output path of the generated type metadata.
 

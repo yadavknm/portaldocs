@@ -14,6 +14,7 @@
     * [My WxP score is below the bar, what should I do](#performance-frequently-asked-questions-faq-my-wxp-score-is-below-the-bar-what-should-i-do)
     * [Is there any way I can get further help](#performance-frequently-asked-questions-faq-is-there-any-way-i-can-get-further-help)
 * [Performance best practices](#performance-best-practices)
+    * [Checklist](#performance-best-practices-checklist)
     * [Operational best practices](#performance-best-practices-operational-best-practices)
     * [Coding best practices](#performance-best-practices-coding-best-practices)
     * [General best practices](#performance-best-practices-general-best-practices)
@@ -35,6 +36,10 @@
     * [Prerequistes](#dependency-injected-view-models-prerequistes)
     * [Migration steps](#dependency-injected-view-models-migration-steps)
     * [Pull Request Samples](#dependency-injected-view-models-pull-request-samples)
+* [Fast extension load](#fast-extension-load)
+    * [Prerequistes](#fast-extension-load-prerequistes)
+    * [Migration steps](#fast-extension-load-migration-steps)
+    * [Pull Request Samples](#fast-extension-load-pull-request-samples)
 
 
 <a name="performance-overview"></a>
@@ -45,7 +50,7 @@ As an extension author you have a duty to uphold your experience to the performa
 
 | Area      | 95th Percentile Bar | Telemetry Action         | How is it measured? |
 | --------- | ------------------- | ------------------------ | ------------------- |
-| Extension | < 4 secs       | ExtensionLoad            | The time it takes for your extension's home page to be loaded and initial scripts, the `initialize` call to complete within your Extension definition file  |
+| Extension | < 2 secs       | ExtensionLoad            | The time it takes for your extension's home page to be loaded and initial scripts, the `initialize` call to complete within your Extension definition file  |
 | Blade     | < 4 secs       | BladeFullReady           | The time it takes for the blade's `onInitialize` or `onInputsSet` to resolve and all the parts on the blade to become ready |
 | Part      | < 4 secs       | PartReady                | Time it takes for the part to be rendered and then the part's OnInputsSet to resolve |
 | WxP       | > 80       | N/A                      | An overall experience score, calculated by weighting blade usage and the blade full ready time |
@@ -125,7 +130,7 @@ You can, if preferred, run queries locally but ensure you are using the Fx provi
 <a name="performance-overview-how-to-assess-your-performance-extension-loading"></a>
 ### Extension-loading
 
-[database('Partner').ExtensionPerformance(ago(1h), now())](https://aka.ms/kwe?cluster=azportal.kusto.windows.net&database=AzurePortal&q=H4sIAAAAAAAAA0tJLElMSixO1VAPSCwqyUstUtfUc60oSc0rzszPC0gtSssvyk3MS07VSEzP1zDM0NRRyMsv19DU5AIAxF6Q5zkAAAA%3D)
+[database('Framework').ExtensionPerformanceKPI(ago(1h), now())](https://dataexplorer.azure.com/clusters/azportalpartner/databases/AzurePortal?query=H4sIAAAAAAAAA0tJLElMSixO1VB3K0rMTS3PL8pW19RzrShJzSvOzM8LSC1Kyy/KTcxLTvUO8NRITM/XMMzQ1FHIyy/X0NTk5QIAteSUID8AAAA=)
 
 ExtensionPerformance will return a table with the following columns:
 
@@ -143,7 +148,7 @@ ExtensionPerformance will return a table with the following columns:
 <a name="performance-overview-how-to-assess-your-performance-blade"></a>
 ### Blade
 
-[database('Partner').BladePerformanceIncludingNetwork(ago(1h), now())](https://aka.ms/kwe?cluster=azportal.kusto.windows.net&database=AzurePortal&q=H4sIAAAAAAAAA0tJLElMSixO1VAPSCwqyUstUtfUc8pJTEkNSC1Kyy%2FKTcxLTvXMS84pTcnMS%2FdLLSnPL8rWSEzP1zDM0NRRyMsv19DU5AIA1W5beEUAAAA%3D)
+[database('Framework').BladePerformanceIncludingNetwork(ago(1h), now())](https://dataexplorer.azure.com/clusters/azportalpartner/databases/AzurePortal?query=H4sIAAAAAAAAA0tJLElMSixO1VB3K0rMTS3PL8pW19RzyklMSQ1ILUrLL8pNzEtO9cxLzilNycxL90stASnRSEzP1zDM0NRRyMsv19DU5OUCAD25CItIAAAA)
 
 With the `BladePerformanceIncludingNetwork` function, we sample 1% of traffic to measure the number of network requests that are made throughout their session, that sampling does not affect the overall duration that is reported. Within the function we will correlate the count of any network requests, these are tracked in telemetry under the action `XHRPerformance`, made when the user is loading a given blade. It does not impact the markers that measure performance. That said a larger number of network requests will generally result in slower performance.
 
@@ -185,7 +190,7 @@ BladePerformanceIncludingNetwork will return a table with the following columns
 <a name="performance-overview-how-to-assess-your-performance-part"></a>
 ### Part
 
-[database('Partner').PartPerformance(ago(1h), now())](https://aka.ms/kwe?cluster=azportal.kusto.windows.net&database=AzurePortal&q=H4sIAAAAAAAAA0tJLElMSixO1VAPSCwqyUstUtfUA7ECUovS8otyE%2FOSUzUS0%2FM1DDM0dRTy8ss1NDW5AIGipTc0AAAA)
+[database('Framework').PartPerformance(ago(1h), now())](https://dataexplorer.azure.com/clusters/azportalpartner/databases/Framework?query=H4sIAAAAAAAAA0tJLElMSixO1VB3K0rMTS3PL8pW19QLSCwqCUgtSssvyk3MS07VSEzP1zDM0NRRyMsv19AEAHCIw240AAAA)
 
 PartPerformance will return a table with the following columns:
 
@@ -193,12 +198,6 @@ PartPerformance will return a table with the following columns:
   - Part/Extension identifiers
 - PartCount
   - How many times the part was loaded within the given date range
-- Samples
-  - The number of loads which were tracking the number of XHR requests
-- XHRCount, XHRCount95th, XHRMax
-  - The 50th percentile (95th or MAX) of XHR requests sent which correlate to that part load (*) This is a rough heuristic, based on a 1% sampling.
-- Bytes
-  - Bytes transferred to the client via XHR requests
 - 50th, 80th, 95th, 99th
   - The time it takes for your part to resolve its `onInputsSet` or `onInitialize` promise. This is captured under the `PartReady` action in telemetry
 - RedScore
@@ -258,7 +257,7 @@ blade which is not meeting the bar.
 Sure! Book in some time in the Azure performance office hours.
 
 - __When?__  Wednesdays from 13:00 to 16:00
-- __Where?__ B41 (Conf Room 41/24)
+- __Where?__ B40 (Conf Room 40/Puffin - outside inbetween 40 and 41)
 - __Contacts:__ Sean Watson (sewatson)
 - __Goals__
   - Help extensions to meet the performance bar
@@ -267,10 +266,21 @@ Sure! Book in some time in the Azure performance office hours.
 - __How to book time__: Send a meeting request with the following
   - TO: sewatson;
   - Subject: YOUR_EXTENSION_NAME: Azure performance office hours
-  - Location: Conf Room 41/24 (It is already reserved)
+  - Location: Conf Room 40/Puffin - outside inbetween 40 and 41 (It is already reserved)
 
 <a name="performance-best-practices"></a>
 # Performance best practices
+
+<a name="performance-best-practices-checklist"></a>
+## Checklist
+
+- Migrate to the [hosting service](portalfx-extension-hosting-service.md#extension-hosting-service)
+- Enable [prewarming](http://aka.ms/portalfx/docs/prewarming), running your extension in a web worker
+- Ensure your extension isn't using [shims](#extension-load-shim-dependencies-removing-shims)
+- Migrate your extension to [dependency injection](#dependency-injected-view-models)
+- Migrate your extension to [Fast extension load](#fast-extension-load)
+- Ensure your extension isn't using [obsolete bundles](https://aka.ms/portalfx/obsoletebundles)
+- Use the [Portal's ARM delegation token](#using-the-portals-arm-token)
 
 <a name="performance-best-practices-operational-best-practices"></a>
 ## Operational best practices
@@ -457,7 +467,7 @@ Below are the steps to switch to the V2 targets. A video of the migration steps 
 <a name="v2-targets-prerequisites"></a>
 ## Prerequisites
 
-- Get your extension working with at least Ibiza SDK 5.0.302.1051. The V2 targets are under active development are continuously being improved. Ideally get your extension working with the latest SDK.
+- Get your extension working with at least Ibiza SDK 5.0.302.6501. The V2 targets are under active development are continuously being improved. Ideally get your extension working with the latest SDK.
 
 <a name="v2-targets-get-your-extension-building-with-tsconfig-json"></a>
 ## Get your extension building with tsconfig.json
@@ -488,7 +498,8 @@ Below are the steps to switch to the V2 targets. A video of the migration steps 
       "rootDir": "Client",
       "removeComments": false,
       "sourceMap": true,
-      "target": "es5"
+      "target": "es5",
+      "types": []
     },
     "include": [
       "Client/**/*"
@@ -594,6 +605,7 @@ The framework supports loading view models using dependency injection. If you mi
 <a name="dependency-injected-view-models-migration-steps"></a>
 ## Migration steps
 
+- Remove the code in Program.ts that initializes the DataContext classes. Set the generic type parameter of `MsPortalFx.Extension.EntryPointBase` base class specification to void.
 - Delete the generated ViewModelFactories.ts from `Client\_generated`
 - Add the following line to your csproj
 
@@ -602,7 +614,7 @@ The framework supports loading view models using dependency injection. If you mi
 ```
 
 - Build the extension project
-- Get a copy of the dependency injection migration tool at: [\\\\wimoy-dev\Public\DependencyInjectionMigrator](\\\\wimoy-dev\Public\DependencyInjectionMigrator) and copy it locally.
+- Get a copy of the dependency injection migration tool at: [\\\\wimoy-dev\Public\DependencyInjectionMigrator](\\\\wimoy-dev\Public\DependencyInjectionMigrator) and copy it locally. Many thanks to Bryan Wood (v-brwoo@microsoft.com) for improving the tool.
   - Look for the string "ViewModels:" in the build logs and copy and paste the JSON to Extension.json in the dependency injection migration tool.
   - Modify the migration tool source code and put in the path of the folder that contains the TypeScript for your extension
 - Run the tool and migrate your V1 view models.
@@ -622,7 +634,6 @@ The framework supports loading view models using dependency injection. If you mi
 - Find all DataContext classes that are still referenced by your view models and add the `@Di.Class()` decorator.
   - Note that `@Di.Class()` is called with no arguments.
   - You will need to add `import * as Di from "Fx/DependencyInjection` to the top of the files
-- Remove the code in Program.ts that initializes the DataContext classes. Set the generic type parameter of `MsPortalFx.Extension.EntryPointBase` base class specification to void.
 - The constructor of any class that contains a `@Di.Class()` decorator (with or without the "viewModel" argument) cannot contain an parameter that is specified with a non-class type. Some of your view model classes may have a dataContext parameter with an any type or an interface type. Either change the type to a class or remove the parameter entirely.
 - All classes in the dependency chain of migrated view models should be marked with `@Di.Class()` decorator. The dependency injection framework in the Portal only supports constructor injection.
 - Put the following code in your Program.ts right at the module level. Then load your extension through the portal. This will validate that you have correctly migrated the V1 view models. The code should complete almost instantly. Remove the code when you are done.
@@ -665,3 +676,68 @@ MsPortalFx.require("Fx/DependencyInjection")
 
 [TelemetryOnboarding]: <portalfx-telemetry-getting-started.md>
 [Ext-Perf/Rel-Report]: <http://aka.ms/portalfx/dashboard/extensionperf>
+
+<a name="fast-extension-load"></a>
+# Fast extension load
+
+The frameworks supports a new extension load contract that can improve extension load performance by one second at the 95th percentile by deprecating Program.ts and the classic extension initialization code path. Once your extension uses the new contract, the portal will no longer download and execute Program.ts and _generated/Manifest.ts. _generated/ExtensionDefinition.ts will be bundled with your blades.
+
+<a name="fast-extension-load-prerequistes"></a>
+## Prerequistes
+
+- Remove all requireJS shims.
+- Complete the dependency injected view models migration.
+- Upgrade to at least SDK 14401.
+  - The MSI can be found at this location [\\\\reddog\Builds\branches\git_azureux_portalfx_production_sdk\5.0.302.14401\retail-amd64\src\RDPackages\SdkInstallerPackage\Portal](\\\\reddog\Builds\branches\git_azureux_portalfx_production_sdk\5.0.302.14401\retail-amd64\src\RDPackages\SdkInstallerPackage\Portal)
+  - $(ExtensionPageVersion) breaking change notes: https://msazure.visualstudio.com/One/_workitems/edit/3276047
+- Prewarming / Web Workers is not a pre-requisite. If an extension onboards to both Prewarming and FastExtensionLoad, the framework will eliminate an additional 500 ms postMessage call, allowing an extension to reach sub-second extension load time.
+
+<a name="fast-extension-load-migration-steps"></a>
+## Migration steps
+
+- Since the new extension load contract will no longer execute Program.ts, your extension's Program.ts should only contain the bare minimum scaffolding. Refer to the following Program.ts for an example: https://msazure.visualstudio.com/One/_git/AzureUX-PortalFx/pullrequest/1320194?_a=files&path=%2Fsrc%2FSDK%2FAcceptanceTests%2FExtensions%2FInternalSamplesExtension%2FExtension%2FClient%2FProgram.ts
+- You do not need to run `MsPortalFx.Base.Diagnostics.Telemetry.initialize(*extensionName*);` because the framework will run it on your behalf.
+- If your extension is on the hosting service, you can delete Program.ts.
+- If you have RPC callbacks that need to be registered, you need to migrate them to the new contract by performing the following steps.
+  - Create the file `Client\EventHandlers\EventHandlers.ts`.
+  - Create a class like the one below and add your RPC registrations.
+
+    ```typescript
+
+    import * as Di from "Fx/DependencyInjection";
+
+    import Rpc = MsPortalFx.Services.Rpc;
+
+    @Di.Class()
+    @Rpc.EventHandler.Decorator("rpc")
+    export class EventHandlers {
+        public registerEndPoints(): void {
+            // Add RPC registrations here
+        }
+    }
+    ```
+
+    - Refer to these changes for an example: https://msazure.visualstudio.com/One/_git/AzureUX-IaaSExp/commit/fba28b74f52b4d8a60497037f9ecd743ff775368?path=%2Fsrc%2Fsrc%2FUx%2FExtensions%2FCompute%2FClient%2FEventHandlers%2FEventHandlers.ts&gridItemType=2&_a=contents
+    - You can verify whether the RPC callbacks are registered correctly by checking `Output/Content/AzurePortalMetadata/SdkSuppliedEnvironment.json` for `rpc`.
+- Change the `EnableDependencyInjectedViewModels` MSBuild property in your csproj to `EnableFastExtensionLoad`.
+- The URI used to register your extension to the portal should be the application root and should not contain any routes. 
+  - You may need to change the URI that you use to sideload your extension.
+  - The hosting service URIs are already registered correctly.
+  - You can add a urlMapping in your web.config to redirect the root application path `~/` to your home page controller. This change does not have to be deployed to production if your extension is already on the hosting service.
+
+    ```xml
+        <system.web>
+            <urlMappings enabled="true">
+                <add url="~/" mappedUrl="~/Home/Index"/>
+            </urlMappings>
+        </system.web>
+    ```
+
+- You can verify whether the migration was completed successfully by sideloading your extension in MPAC and checking whether the expression `FxImpl.Extension.isFastExtensionLoadEnabled()` returns `true` in the iframe/webworker of your extension.
+
+
+<a name="fast-extension-load-pull-request-samples"></a>
+## Pull Request Samples
+
+- https://dev.azure.com/msazure/One/_git/Mgmt-RecoverySvcs-Portal/pullrequest/1423720
+- https://msazure.visualstudio.com/One/_git/MGMT-AppInsights-InsightsPortal/pullrequest/1426564
