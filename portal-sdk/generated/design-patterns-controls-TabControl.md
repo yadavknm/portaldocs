@@ -26,9 +26,6 @@ Formatting pages in Azure can be done with several controls.  Choose the one bes
 <a name="best-practices"></a>
 ### Best practices
 
-
-<!-- TODO NEED FIGMA LINK -->
-
 <a name="best-practices-do"></a>
 #### Do
 
