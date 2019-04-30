@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+A TriStateCheckBox can be checked, not checked or partially checked.  The TriStateCheckBox is typically used in a hierarchy to indicate that checked state of children items.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -13,6 +14,14 @@
 <a name="when-to-use"></a>
 ### When to use
 
+To select a **single option** among existing values.  Choose the control best suited to your needs
+* **CheckBox** - a choice between 2 mutually exclusive options.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* **DropDown** - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
+* **OptionsGroup** - a single choice between 2-7 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  For  On/Off, Yes/No you can also consider a CheckBox.
+* **RadioButtons** - a single choice between 2-7 equally weighted options where the option names are long.   
+* **TriStateCheckBox** - can be checked, not checked or partially checked to indicate the checked state of children items in a hierarchy.
+
+
 
  
 <a name="best-practices"></a>
@@ -22,13 +31,12 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use to indicate the checked state of children items
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use the TriStateCheckBox if there is no hierarchy, use the CheckBox instead.
 
 
 
@@ -50,6 +58,8 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3023%3A49" target="_blank">TriStateCheckBox in Azure Portal Toolkit</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 
