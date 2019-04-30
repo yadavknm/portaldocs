@@ -3,7 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
-The FileDownload
+<!-- TODO guidance FileDownload -->
+
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -60,7 +61,7 @@ The FileDownload control offers different create methods and has the following e
 <a name="related-info"></a>
 ### Related info
 
-<!-- TODO need link to Figma -->
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8199%3A347924" target="_blank">Control in Azure Portal Toolkit</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

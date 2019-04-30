@@ -58,7 +58,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-<!-- TODO need link to Figma -->
+<!-- TODO link to Figma -->
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

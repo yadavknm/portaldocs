@@ -3,7 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
-The EditableGrid
+<!-- TODO guidance EditableGrid  -->
+
 
 
 <!-- TODO get an IMAGE to embed here -->

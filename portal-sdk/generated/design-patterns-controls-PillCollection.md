@@ -3,7 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
-The PillCollection 
+<!-- TODO guidance PillCollection -->
+
 
 
 <!-- TODO get an IMAGE to embed here -->
