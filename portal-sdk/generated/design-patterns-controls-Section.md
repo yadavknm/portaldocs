@@ -14,8 +14,10 @@ The Section control is used to group and format controls on pages in the Azure p
 <a name="when-to-use"></a>
 ### When to use
 Formatting pages in Azure can be done with several controls.  Choose the one best suited to your needs
+Formatting pages in Azure can be done with several controls.  Choose the one best suited to your needs
 * **Accordion** - use the accordion when some of the information can be hidden in a collapsed area of the page
 * **Section** - use the section to group information and when all information on the page is shown without hidden, collapsed areas.  Sections are used throughout the page.  Sections is the only control that can cause its child controls to display their label on the same line as their data input field.  This **leftLabelPosition** option is used in the new creation forms and other wide forms
+* **Splitter** - use the Spitter to display an area of the page split into 2 sections
 * **TabControl** - use tabs to separate content on a page and ensure the user can see the available categories of information at the top of the page.  Tabs are typically used near the top of the page.  Tabs are used in the portal wizard experiences as "steps".
 
 

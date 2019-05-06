@@ -14,29 +14,28 @@ A CheckBox is a UI element that allows users to switch between two mutually excl
  
 <a name="when-to-use"></a>
 ### When to use
-A CheckBox is used to select or deselect action items. It can be used for a single item or for a list of multiple items that a user can choose from. The control has two selection states: unselected and selected.
-
-Use multiple CheckBoxes for multi-select scenarios in which a user chooses one or more items from a group of choices that are not mutually exclusive.  A DropDown may also be considered for multi-select.
-
-Use a single CheckBox for a subordinate setting, such as with a "Remember me?" login scenario or with a terms of service agreement.
-
 To select a **single option** among existing values.  Choose the control best suited to your needs
 * **CheckBox** - a choice to opt in to a single choice.  For example, use a single CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* **TriStateCheckBox** - can be checked, not checked or partially checked to indicate the checked state of children items in a hierarchy.
 * **DropDown** - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
 * **OptionsGroup** - a single choice between 2-4 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  
 * **RadioButtons** - a single choice between 2-7 equally weighted options where the option names are long.   
-* **TriStateCheckBox** - can be checked, not checked or partially checked to indicate the checked state of children items in a hierarchy.
 
 
 
  
 <a name="best-practices"></a>
 ### Best practices
+A CheckBox is used to select or deselect action items. It can be used for a single item or for a list of multiple items that a user can choose from. The control has two selection states: unselected and selected.
+
+Use multiple CheckBoxes for multi-select scenarios in which a user chooses one or more items from a group of choices that are not mutually exclusive.  A DropDown may also be considered for multi-select.
 
 <a name="best-practices-do"></a>
 #### Do
 
 * Allow users to choose any combination of options when several CheckBoxes are grouped together.
+* Use a single CheckBox for a subordinate setting, such as with a "Remember me?" login scenario or with a terms of service agreement.
+
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t

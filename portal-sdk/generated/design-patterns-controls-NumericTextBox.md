@@ -13,19 +13,20 @@ The NumericTextBox enables the user to easily enter a number.
  
 <a name="when-to-use"></a>
 ### When to use
-Displaying and gathering text is available via multiple controls, choose the one most suited to your needs
+Gathering text input is available via multiple controls, choose the one most suited to your needs
 * **CopyableLabel** - multi-line text input with built-in support for infoBalloonContent and an easy way for user to copy value.
-* **MultilineTextBox** - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
 * **NumericTextBox** - restricts input to numbers only and built-in support for validations, infoBalloonContent and placeHolderText
 * **PasswordBox** - text input that uses a * character instead of echoing user input with built-in support for validations, infoBalloonContent and placeHolderText.  Use PasswordBox for security sensitive fields.
-* **TextBlock** - Readonly control used to display text.
 * **TextBox** - single-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+* **MultilineTextBox** - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+
 
 
 
  
 <a name="best-practices"></a>
 ### Best practices
+Use the NumericTextBox when the field represents a number
 
 <a name="best-practices-do"></a>
 #### Do

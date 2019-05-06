@@ -13,13 +13,12 @@ The CopyableLabel control enables a multi-line text area where the user can view
  
 <a name="when-to-use"></a>
 ### When to use
-Displaying and gathering text is available via multiple controls, choose the one most suited to your needs
+Gathering text input is available via multiple controls, choose the one most suited to your needs
 * **CopyableLabel** - multi-line text input with built-in support for infoBalloonContent and an easy way for user to copy value.
-* **MultilineTextBox** - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
 * **NumericTextBox** - restricts input to numbers only and built-in support for validations, infoBalloonContent and placeHolderText
 * **PasswordBox** - text input that uses a * character instead of echoing user input with built-in support for validations, infoBalloonContent and placeHolderText.  Use PasswordBox for security sensitive fields.
-* **TextBlock** - Readonly control used to display text.
 * **TextBox** - single-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+* **MultilineTextBox** - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
 
 
 
@@ -31,13 +30,13 @@ Displaying and gathering text is available via multiple controls, choose the one
 #### Do
 
 * Use the CopyableLabel to enable the user to easily copy text values.
-* The CopyableLabel does not offer built-in validations 
 * Set the **infoBalloonContent** to concise, helpful text with a link to learn
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* Don't use the CopyableLabel if copying the text field value is not needed, consider the TextBlock instead
+* Don't use the CopyableLabel if the field value requires validation, consider the MultilineTextBox instead
+* Don't use the CopyableLabel if copying the text field value is not needed, consider the MultilineTextBox instead
 
 
 
