@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Legend control displays a list of items and associated colors to be used as a legend for a chart, graph, etc
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,22 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the Legend control displays to display a legend for a chart, graph, etc
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -50,7 +50,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3759%3A411280" target="_blank">Data visualization in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3759%3A411280" target="_blank">Data visualization in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

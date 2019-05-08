@@ -14,19 +14,19 @@ The TextBox component enables a user to type text into an app. It's typically us
  
 <a name="when-to-use"></a>
 ### When to use
-Displaying and gathering text is available via multiple controls, choose the one most suited to your needs
-* CopyableLabel - multi-line text input with built-in support for infoBalloonContent and an easy way for user to copy value.
-* MultilineTextBox - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
-* NumericTextBox - restricts input to numbers only and built-in support for validations, infoBalloonContent and placeHolderText
-* PasswordBox - text input that uses a * character instead of echoing user input with built-in support for validations, infoBalloonContent and placeHolderText.  Use PasswordBox for security sensitive fields.
-* TextBlock - Readonly control used to display text.
-* TextBox - single-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+Gathering text input is available via multiple controls, choose the one most suited to your needs
+* **CopyableLabel** - multi-line text input with built-in support for infoBalloonContent and an easy way for user to copy value.
+* **NumericTextBox** - restricts input to numbers only and built-in support for validations, infoBalloonContent and placeHolderText
+* **PasswordBox** - text input that uses a * character instead of echoing user input with built-in support for validations, infoBalloonContent and placeHolderText.  Use PasswordBox for security sensitive fields.
+* **TextBox** - single-line text input with built-in support for validations, infoBalloonContent and placeHolderText
+* **MultilineTextBox** - multi-line text input with built-in support for validations, infoBalloonContent and placeHolderText
 
 
 
  
 <a name="best-practices"></a>
 ### Best practices
+Use the TextBox so the user can enter a line of text
 
 <a name="best-practices-do"></a>
 #### Do
@@ -45,6 +45,7 @@ Displaying and gathering text is available via multiple controls, choose the one
 
 * Don’t use a TextBox to render basic copy as part of a body element of a page, put the text on the page or consider the TextBlock instead
 * Don’t provide an unlabeled TextBox and expect that users will know what to do with it.
+
 
 
  
@@ -66,7 +67,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3025%3A378138" target="_blank">TextBox in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3025%3A378138" target="_blank">TextBox in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Splitter control enables you to resize two areas of a page
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,27 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Formatting pages in Azure can be done with several controls.  Choose the one best suited to your needs
+* **Accordion** - use the accordion when some of the information can be hidden in a collapsed area of the page
+* **Section** - use the section to group information and when all information on the page is shown without hidden, collapsed areas.  Sections are used throughout the page.  Sections is the only control that can cause its child controls to display their label on the same line as their data input field.  This **leftLabelPosition** option is used in the new creation forms and other wide forms
+* **Splitter** - use the Spitter to display an area of the page split into 2 sections
+* **TabControl** - use tabs to separate content on a page and ensure the user can see the available categories of information at the top of the page.  Tabs are typically used near the top of the page.  Tabs are used in the portal wizard experiences as "steps".
+
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use the splitter to display data side-by-side for comparison
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -50,6 +55,8 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8186%3A0" target="_blank">Splitter in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

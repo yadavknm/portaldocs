@@ -13,28 +13,25 @@ The MonitorChart control plots the metrics for your resource in Azure. It inhere
  
 <a name="when-to-use"></a>
 ### When to use
-Use the MonitorChart to plot metrics for your resource.
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
-* AreaChart
-* BarChart
-* Donut
-* LineChart
-* Map
-* Metrics
-* MonitorChart
-* QuotaGauge
-* ScatterChart
-* SingleMetric
-* SingleValueGauge
-
+* **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
+* **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
+* **Donut** - displays proportional data as part of a whole.
+* **LineChart** - displays a series of data points connected by straight line segments.
+* **Map** - displays data with longitude and latitude coordinates on a world map.
+* **Metrics** - displays a single value for a set of metrics
+* **MonitorChart** - displays the metrics for your resource and inherently knows how to fetch data for your resource.
+* **QuotaGauge** - displays the current value relative to a quota (limit) and total.
+* **ScatterChart** - displays a plot of data points without any connecting lines
+* **SingleMetric** - displays a single value for a metric
+* **SingleValueGauge** - displays the status of a current value relative to an optional total.  
 
 
 
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the MonitorChart to plot metrics for your resource.
 
 <a name="best-practices-do"></a>
 #### Do
@@ -54,6 +51,8 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
+* <a href="https://df.onecloud.azure-test.net/?SamplesExtension=true#blade/SamplesExtension/SDKMenuBlade/monitorchartv2" target="_blank">MonitorChart in the samples extension</a>
+
 
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
@@ -68,7 +67,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3759%3A411280" target="_blank">Data visualization in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3759%3A411280" target="_blank">Data visualization in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

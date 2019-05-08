@@ -3,6 +3,8 @@
  
 <a name="basics"></a>
 ### Basics
+<!-- TODO guidance PillCollection -->
+
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -22,13 +24,12 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -52,7 +53,7 @@ To see the latest control, change options and get source code for your project u
 ### Related info
 
 * <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A2972
-" target="_blank">PillCollection in Azure Portal Toolkit</a>
+" target="_blank">PillCollection in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

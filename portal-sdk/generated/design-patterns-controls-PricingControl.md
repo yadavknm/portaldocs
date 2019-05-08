@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The PricingControl enbles a 
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,26 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the PricingControl so the user can understand the currently selected pricing option and navigate to a separate experience to compare and select among a set pricing options.
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use the PricingControl when your pricing selection is moderately complex and the user needs to compare multiple facets of pricing to make a good selection.
+* Set the **infoBalloonContent** to concise, helpful text with a link to learn
+* Use the **label** option to provide a helpful name for the control.
+* Use the **validations** option to help the user input the correct text if a specific format is required
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use the PricingControl if the pricing selection is a simple choice among a few options.  Consider DropDown, RadioButtons or OptionsGroup for simple pricing choices.
 
 
 
@@ -50,7 +54,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393684" target="_blank">PricingControl in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393684" target="_blank">PricingControl in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

@@ -58,13 +58,16 @@ Creating a resource in Azure
 ## Anatomy
 <!-- TODO UX get screenshot that includes "Learn more" links in section text -->
 <div style="max-width:800px">
+<a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8368%3A349324" target="_blank">
 <img alttext="Resource create anatomy" src="../media/design-patterns-resource-create/resource-create-anatomy.png"  />
+</a>
 </div>
 
 The resource create experience contains:
-1. Tabs with descriptive and supportive text and learn more links to switch between logical input steps
-2. Input fields divided into logical sections with concise, instructional text for each section
-3. Footer navigation with buttons to navigate to previous and next tabs and submit the form
+* Tabs with descriptive and supportive text and learn more links to switch between logical input steps
+* Sections that group input fields into a logical area.   
+* Input fields divided into logical sections with concise, instructional text for each section
+* Footer navigation with buttons to navigate to previous and next tabs and submit the form
 
 <a name="anatomy-tab-layout"></a>
 <a name="anatomy-tab-layout"></a>
@@ -180,7 +183,7 @@ The post create page provides realtime deployment status, help with troubleshoot
 <a name="related-design-guidelines"></a>
 ## Related design guidelines
 
--   Azure Design Template [Create a resource](https://www.figma.com/file/PASyBiBq72G54ckrtgs86uE7/Azure-Design-Templates?node-id=308%3A81443)
+-   Azure Design Template [Create a resource](https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8077%3A0)
 -   Forms [design-patterns-page-forms.md](design-patterns-page-forms.md)
 -   Full screen [design-patterns-page-fullscreen.md](design-patterns-page-fullscreen.md)
 -   Browse Resources [design-patterns-resource-browse.md](design-patterns-resource-browse.md)

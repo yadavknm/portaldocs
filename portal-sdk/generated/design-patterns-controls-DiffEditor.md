@@ -78,6 +78,8 @@ The DiffEditor control offers different create methods and has the following ent
 <a name="related-info"></a>
 ### Related info
 
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3015%3A557" target="_blank">DiffEditor in Azure Portal Toolkit (Figma)</a>
+
 * [Azure design guidance](http://aka.ms/portalfx/design)
 
 

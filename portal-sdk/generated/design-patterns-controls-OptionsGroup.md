@@ -12,23 +12,24 @@
  
 <a name="when-to-use"></a>
 ### When to use
-To select **single option** among existing values.  Choose the control best suited to your needs
-* CheckBox - a choice between 2 mutually exclusive options.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
-* DropDown - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
-* RadioButtons - a single choice between 2-7 equally weighted options where the option names are long.   
-* OptionsGroup - a single choice between 2-7 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  For  On/Off, Yes/No you can also consider a CheckBox.
+To select a **single option** among existing values.  Choose the control best suited to your needs
+* **CheckBox** - a choice to opt in to a single choice.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* **TriStateCheckBox** - can be checked, not checked or partially checked to indicate the checked state of children items in a hierarchy.
+* **DropDown** - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
+* **OptionsGroup** - a single choice between 2-4 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  
+* **RadioButtons** - a single choice between 2-7 equally weighted options where the option names are long.   
 
 
 
  
 <a name="best-practices"></a>
 ### Best practices
+OptionsGroup is a great visual control when the user is presented with 2-4 choices with short names.
 
 <a name="best-practices-do"></a>
 #### Do
 
-* Use when there are 2-5 options and the option names are short
-* Use when there are 2-7 options, if you have enough screen space and the options are important enough to be a good use of that screen space. Otherwise, use a CheckBox or DropDown.
+* Use when there are 2-4 options and the option names are short.  
 * Use on forms and wizard pages to make the alternatives clear, even if a CheckBox is otherwise acceptable.
 * List the options in a logical order, such as most likely to be selected to least, simplest operation to most complex, or least risk to most. Alphabetical ordering is not recommended because it is language dependent and therefore not localizable.
 * If none of the options is a valid choice, add another option to reflect this choice, such as "None" or "Does not apply".
@@ -36,9 +37,10 @@ To select **single option** among existing values.  Choose the control best suit
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
-* Use when the options are numbers that have fixed steps, like 10, 20, 30. Use a Slider component instead.
-* Use if there are more than 7 options, use a DropDown instead.
-* Nest with other RadioButtons, OptionsGroups or CheckBoxes. If possible, keep all the options at the same level.
+
+* Don't use if there are more than 4 options, use RadioButtons or DropDown instead.
+* Don't use when the options are numbers that have fixed steps, like 10, 20, 30. Use a Slider component instead.
+* Don't nest with other RadioButtons, OptionsGroups or CheckBoxes. If possible, keep all the options at the same level.
 * Don't use when the option names are long, use RadioButtons instead.
 
 
@@ -63,7 +65,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7652" target="_blank">OptionsGroup in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7652" target="_blank">OptionsGroup in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

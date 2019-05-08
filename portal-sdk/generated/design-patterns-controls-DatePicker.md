@@ -14,22 +14,20 @@ The DatePicker component enables a user to pick a date value.
  
 <a name="when-to-use"></a>
 ### When to use
-Use the DatePicker when the user must enter a date.
-
 There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
-* DatePicker
-* DateTimePicker
-* DateTimeRangePicker
-* DayPicker
-* DurationPicker
-* TimePicker
+* **DatePicker** - gets a specific date including month, day and year
+* **DateTimePicker** - gets a specific date including month, day, year and time including hours, minutes, seconds
+* **DateTimeRangePicker** - gets a range of time between two date and times
+* **DayPicker** - gets a day of the month
+* **DurationPicker** - gets a duration in terms of days, hours, minutes and seconds
+* **TimePicker** - gets a time including hours, minutes, seconds
 
 
 
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the DatePicker when the user must enter a date.
 
 <a name="best-practices-do"></a>
 #### Do
@@ -66,6 +64,8 @@ To see the latest control, change options and get source code for your project u
  
 <a name="related-info"></a>
 ### Related info
+
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7621" target="_blank">Date pickers in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

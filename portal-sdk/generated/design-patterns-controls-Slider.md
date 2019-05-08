@@ -3,7 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
-A Slider is an element used to set a value. It provides a visual indication of adjustable content, as well as the current setting in the total range of content. It is displayed as a horizontal track with options on either side. A knob or lever is dragged to one end or the other to make the choice, indicating the current value. Marks on the Slider bar can show values and users can choose where they want to drag the knob or lever to set the value.
+A Slider is an element used to set a value. It provides a visual indication of the current setting amidst the total range of content. A knob or lever is dragged to one end or the other to make the choice, indicating the current value. Marks on the Slider bar can show values and users can choose where they want to drag the knob or lever to set the value.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -28,6 +28,8 @@ A Slider is a good choice when you know that users think of the value as a relat
 * Include a label indicating what value the Slider changes.
 * Use step points (or tick marks) if you don’t want the Slider to allow arbitrary values between min and max.
 * Use a Slider when the user would benefit from instant feedback on the effect of setting changes.
+* Set the **infoBalloonContent** to concise, helpful text with a link to learn
+* Use the **label** option to provide a helpful name for the control.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
@@ -61,7 +63,7 @@ The Slider control offers different create methods and has the following entries
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393895" target="_blank">Slider in Azure Portal Toolkit</a> 
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393895" target="_blank">Slider in Azure Portal Toolkit (Figma)</a> 
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

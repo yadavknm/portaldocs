@@ -66,7 +66,7 @@ The Essentials control offers different create methods and has the following ent
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7668" target="_blank">Essentials in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7668" target="_blank">Essentials in Azure Portal Toolkit (Figma)</a>
 
 * Manage a resource design pattern: [Manage a resource]((http://aka.ms/portalfx/design)patterns/resourcemanage)
 
