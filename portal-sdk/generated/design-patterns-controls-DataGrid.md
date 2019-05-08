@@ -51,7 +51,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A15931" target="_blank">DataGrid in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A15931" target="_blank">DataGrid in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

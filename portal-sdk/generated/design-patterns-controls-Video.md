@@ -36,6 +36,8 @@ Use the Video control when you need to display video content.
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
+* <a href="https://df.onecloud.azure-test.net/?SamplesExtension=true#blade/SamplesExtension/SDKMenuBlade/styleguidevideotitle" target="_blank">Video in the samples extension</a>
+
 
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
@@ -51,7 +53,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8180%3A347934" target="_blank">Video in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8180%3A347934" target="_blank">Video in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

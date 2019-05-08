@@ -36,6 +36,8 @@
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
+* <a href="https://df.onecloud.azure-test.net/?SamplesExtension=true#blade/SamplesExtension/EditableGrid/Validation" target="_blank">EditableGrid in the samples extension</a>
+
 
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
@@ -51,7 +53,7 @@ To see the latest control, change options and get source code for your project u
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3493%3A397646" target="_blank">EditableGrid in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3493%3A397646" target="_blank">EditableGrid in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

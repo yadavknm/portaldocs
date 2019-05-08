@@ -61,7 +61,7 @@ The RangeSlider control offers different create methods and has the following en
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393895" target="_blank">RangeSlider in Azure Portal Toolkit</a> 
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3492%3A393895" target="_blank">RangeSlider in Azure Portal Toolkit (Figma)</a> 
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 

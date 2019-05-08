@@ -36,6 +36,8 @@
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
+* <a href="https://df.onecloud.azure-test.net/?SamplesExtension=true#blade/SamplesExtension/FileDownloadBlade/OAuthFileDownloadButton" target="_blank">FileUpload in the samples extension</a>
+
 
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
@@ -61,7 +63,7 @@ The FileDownload control offers different create methods and has the following e
 <a name="related-info"></a>
 ### Related info
 
-* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8199%3A347924" target="_blank">Control in Azure Portal Toolkit</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8199%3A347924" target="_blank">Control in Azure Portal Toolkit (Figma)</a>
 
 * [Azure design guidance](http://aka.ms/portalfx/design)
 
