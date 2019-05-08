@@ -13,8 +13,6 @@ The Map control displays geographical data of longitude and latitude coordinates
  
 <a name="when-to-use"></a>
 ### When to use
-Use the Map control when you have geographical data with longitude and latitude coordinates.
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -33,7 +31,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the Map control when you have geographical data with longitude and latitude coordinates.
 
 <a name="best-practices-do"></a>
 #### Do

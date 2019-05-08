@@ -13,8 +13,6 @@ QuotaGauge displays the status of a current value relative to a quota (limit) an
  
 <a name="when-to-use"></a>
 ### When to use
-Use the QuotaGauge to show a current value in relation to a quota (limit) and total.  For example, the user may want to understand how much money they have spent in relation to their budget (quota) and projected total.
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -33,7 +31,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the QuotaGauge to show a current value in relation to a quota (limit) and total.  For example, the user may want to understand how much money they have spent in relation to their budget (quota) and projected total.
 
 <a name="best-practices-do"></a>
 #### Do

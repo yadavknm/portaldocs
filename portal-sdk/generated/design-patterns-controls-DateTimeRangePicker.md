@@ -14,8 +14,6 @@ The DateTimeRangePicker control provides an easy way select a date/time range, e
  
 <a name="when-to-use"></a>
 ### When to use
-Use the DateTimeRangePicker when the user must enter a date and time range.
-
 There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
 * DatePicker
 * DateTimePicker
@@ -29,6 +27,7 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="best-practices"></a>
 ### Best practices
+Use the DateTimeRangePicker when the user must enter a date and time range.
 
 
 <a name="best-practices-do"></a>

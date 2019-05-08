@@ -13,7 +13,7 @@ The CopyableLabel control enables a multi-line text area where the user can view
  
 <a name="when-to-use"></a>
 ### When to use
-Gathering text input is available via multiple controls, choose the one most suited to your needs
+Text input controls let the user enter text and offer optional validation of that text. Choose the one most suited to your needs
 * **CopyableLabel** - multi-line text input with built-in support for infoBalloonContent and an easy way for user to copy value.
 * **NumericTextBox** - restricts input to numbers only and built-in support for validations, infoBalloonContent and placeHolderText
 * **PasswordBox** - text input that uses a * character instead of echoing user input with built-in support for validations, infoBalloonContent and placeHolderText.  Use PasswordBox for security sensitive fields.

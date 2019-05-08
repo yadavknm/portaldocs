@@ -13,7 +13,6 @@ ScatterChart displays a plot of data points without any connecting lines
  
 <a name="when-to-use"></a>
 ### When to use
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -32,6 +31,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
+Use the ScatterChart to plot data points without any connecting lines
 
 <a name="best-practices-do"></a>
 #### Do

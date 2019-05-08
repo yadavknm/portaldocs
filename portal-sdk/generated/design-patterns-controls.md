@@ -26,8 +26,8 @@ Controls are the building blocks of the Azure UX. They allow users to view, edit
 * [DateTimeRangePicker](design-patterns-controls-DateTimeRangePicker.md)
 * [DayPicker](design-patterns-controls-DayPicker.md)
 * [DurationPicker](design-patterns-controls-DurationPicker.md)
-* [ScopePicker](design-patterns-controls-scopepicker.md)
 * [TimePicker](design-patterns-controls-TimePicker.md)
+* [ScopePicker](design-patterns-controls-scopepicker.md)
 
 <a name="additional-input-controls"></a>
 ## Additional input controls

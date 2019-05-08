@@ -14,8 +14,6 @@ SingleValueGauge shows the status of a current value relative to an optional tot
  
 <a name="when-to-use"></a>
 ### When to use
-Use the SingleValueGauge to show a current value in relation to a total.  For example, the user may want to understand how much money they have spent in relation to their typical monthly spend (total).
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -34,7 +32,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the SingleValueGauge to show a current value in relation to a total.  For example, the user may want to understand how much money they have spent in relation to their typical monthly spend (total).
 
 <a name="best-practices-do"></a>
 #### Do

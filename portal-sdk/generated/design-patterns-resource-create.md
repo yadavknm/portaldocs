@@ -64,9 +64,10 @@ Creating a resource in Azure
 </div>
 
 The resource create experience contains:
-1. Tabs with descriptive and supportive text and learn more links to switch between logical input steps
-2. Input fields divided into logical sections with concise, instructional text for each section
-3. Footer navigation with buttons to navigate to previous and next tabs and submit the form
+* Tabs with descriptive and supportive text and learn more links to switch between logical input steps
+* Sections that group input fields into a logical area.   
+* Input fields divided into logical sections with concise, instructional text for each section
+* Footer navigation with buttons to navigate to previous and next tabs and submit the form
 
 <a name="anatomy-tab-layout"></a>
 <a name="anatomy-tab-layout"></a>

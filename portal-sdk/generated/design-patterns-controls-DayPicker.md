@@ -14,8 +14,6 @@ The DayPicker component enables a user to pick a day.
  
 <a name="when-to-use"></a>
 ### When to use
-Use the DayPicker when the user must select a day.
-
 There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
 * DatePicker
 * DateTimePicker
@@ -29,7 +27,7 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the DayPicker when the user must select a day.
 
 <a name="best-practices-do"></a>
 #### Do

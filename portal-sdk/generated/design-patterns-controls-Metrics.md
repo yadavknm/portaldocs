@@ -13,8 +13,6 @@ Metrics displays a single value for a set of metrics
  
 <a name="when-to-use"></a>
 ### When to use
-Use Metrics to show multiple metrics for easy comparison of those values.  For example, the user may want to know the current CPU, Memory and free storage for a VM
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -33,7 +31,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use Metrics to show multiple metrics for easy comparison of those values.  For example, the user may want to know the current CPU, Memory and free storage for a VM
 
 <a name="best-practices-do"></a>
 #### Do

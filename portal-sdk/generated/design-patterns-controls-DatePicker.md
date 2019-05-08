@@ -14,8 +14,6 @@ The DatePicker component enables a user to pick a date value.
  
 <a name="when-to-use"></a>
 ### When to use
-Use the DatePicker when the user must enter a date.
-
 There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
 * DatePicker
 * DateTimePicker
@@ -29,7 +27,7 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the DatePicker when the user must enter a date.
 
 <a name="best-practices-do"></a>
 #### Do

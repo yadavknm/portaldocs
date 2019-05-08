@@ -14,8 +14,6 @@ The DateTimePicker control provides an easy way select date and time, e.g. 6/5/2
  
 <a name="when-to-use"></a>
 ### When to use
-Use the DateTimePicker when the user must enter a date and time.
-
 There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
 * DatePicker
 * DateTimePicker
@@ -29,6 +27,7 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="best-practices"></a>
 ### Best practices
+Use the DateTimePicker when the user must enter a date and time.
 
 <a name="best-practices-do"></a>
 #### Do

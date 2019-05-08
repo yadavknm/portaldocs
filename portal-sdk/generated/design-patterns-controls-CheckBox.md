@@ -14,7 +14,7 @@ A CheckBox is a UI element that allows users to switch between two mutually excl
  
 <a name="when-to-use"></a>
 ### When to use
-To select a **single option** among existing values.  Choose the control best suited to your needs
+Selectors let the user choose options from a set of existing values.  Choose the control best suited to your needs
 * **CheckBox** - a choice to opt in to a single choice.  For example, use a single CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
 * **TriStateCheckBox** - can be checked, not checked or partially checked to indicate the checked state of children items in a hierarchy.
 * **DropDown** - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.

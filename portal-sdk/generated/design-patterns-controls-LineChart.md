@@ -13,8 +13,6 @@ A LineChart displays a series of data points connected by straight line segments
  
 <a name="when-to-use"></a>
 ### When to use
-Use a line chart visualize a trend in data over time.
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -33,7 +31,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use a line chart visualize a trend in data over time.
 
 <a name="best-practices-do"></a>
 #### Do

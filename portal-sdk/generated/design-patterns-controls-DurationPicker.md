@@ -14,8 +14,6 @@ The DurationPicker component enables a user to pick a day.
  
 <a name="basics-when-to-use"></a>
 ### When to use
-Use the DurationPicker when the user must select a day.
-
 There are a set of date, time and duration pickers available in the SDK.  Choose the one that is most suitable to your need.
 * DatePicker
 * DateTimePicker
@@ -29,7 +27,7 @@ There are a set of date, time and duration pickers available in the SDK.  Choose
  
 <a name="basics-best-practices"></a>
 ### Best practices
-
+Use the DurationPicker when the user must select a duration.
 
 <a name="basics-best-practices-do"></a>
 #### Do
