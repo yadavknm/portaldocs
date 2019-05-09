@@ -166,12 +166,17 @@ The post create page provides realtime deployment status, help with troubleshoot
 <a name="do"></a>
 <a name="do"></a>
 ## Do
+-   Include a brief description at the  of each tab about the tab content. When possible include `Learn more` links to relevant docs.
+
+-   Include a brief description for each section on a tab.
+
 -   Put all required fields on the first tab so the user can quickly create your resource
 
 -   Mark required fields with the red asterisk
 
  - Include info bubbles if there are input fields that may not be immediately familiar
 
+ 
 <a name="don-t"></a>
 <a name="don-39-t"></a>
 ## Don&#39;t
